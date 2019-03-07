@@ -1,0 +1,22 @@
+2019-03-08 01:05:37,180 INFO  main                             - SOFABoot HealthCheck Starting!
+2019-03-08 01:06:02,118 INFO  main                             - Found 1 HealthChecker implementation:sofaComponentHealthChecker
+2019-03-08 01:06:02,119 INFO  main                             - Found 2 HealthIndicator implementation:sofaBootHealthIndicator,diskSpaceHealthIndicator
+2019-03-08 01:06:02,121 INFO  main                             - Found 1 SofaBootMiddlewareAfterReadinessCheckCallback implementation:rpcAfterHealthCheckCallback
+2019-03-08 01:06:02,121 INFO  main                             - Found 0 SofaBootAfterReadinessCheckCallback implementation
+2019-03-08 01:06:02,121 INFO  main                             - Start to publish SofaBootBeforeReadinessCheckEvent.
+2019-03-08 01:06:02,122 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2019-03-08 01:06:02,125 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check success with 0 retry.
+2019-03-08 01:06:02,125 INFO  main                             - SOFABoot HealthChecker readiness check result: success.
+2019-03-08 01:06:02,126 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2019-03-08 01:06:02,126 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2019-03-08 01:06:02,126 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2019-03-08 01:06:02,126 INFO  main                             - Begin SOFABoot ReadinessCheckCallback check.
+2019-03-08 01:06:02,126 INFO  main                             - Begin SofaBootMiddlewareAfterReadinessCheckCallback check
+2019-03-08 01:06:07,239 INFO  main                             - SOFABoot ReadinessCheckCallback[rpcAfterHealthCheckCallback] check success.
+2019-03-08 01:06:07,239 INFO  main                             - SofaBootMiddlewareAfterReadinessCheckCallback check result: success.
+2019-03-08 01:06:07,239 INFO  main                             - Begin SofaBootAfterReadinessCheckCallback readiness check
+2019-03-08 01:06:07,239 INFO  main                             - SofaBootAfterReadinessCheckCallback readiness check result: success.
+2019-03-08 01:06:07,239 INFO  main                             - SOFABoot ReadinessCheckCallback check: success.
+2019-03-08 01:06:07,239 INFO  main                             - Readiness check result: success
+2019-03-08 01:11:27,477 INFO  main                             - SOFABoot HealthCheck Starting!
+2019-03-08 01:11:51,056 INFO  main                             - SOFABoot HealthCheck Starting!

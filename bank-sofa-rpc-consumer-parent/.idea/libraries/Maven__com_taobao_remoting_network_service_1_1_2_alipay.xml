@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.taobao.remoting:network.service:1.1.2.alipay">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/remoting/network.service/1.1.2.alipay/network.service-1.1.2.alipay.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/remoting/network.service/1.1.2.alipay/network.service-1.1.2.alipay-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/remoting/network.service/1.1.2.alipay/network.service-1.1.2.alipay-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

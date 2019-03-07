@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bank-sofa-provider-facade/bank-sofa-provider-facade.iml" filepath="$PROJECT_DIR$/bank-sofa-provider-facade/bank-sofa-provider-facade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bank-sofa-provider-parent.iml" filepath="$PROJECT_DIR$/bank-sofa-provider-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bank-sofa-provider-service/bank-sofa-provider-service.iml" filepath="$PROJECT_DIR$/bank-sofa-provider-service/bank-sofa-provider-service.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/endpoint/bank-sofa-rpc-consumer-endpoint.iml" filepath="$PROJECT_DIR$/app/endpoint/bank-sofa-rpc-consumer-endpoint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bank-sofa-rpc-consumer-parent.iml" filepath="$PROJECT_DIR$/bank-sofa-rpc-consumer-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/web/bank-sofa-rpc-consumer-web.iml" filepath="$PROJECT_DIR$/app/web/bank-sofa-rpc-consumer-web.iml" />
+    </modules>
+  </component>
+</project>

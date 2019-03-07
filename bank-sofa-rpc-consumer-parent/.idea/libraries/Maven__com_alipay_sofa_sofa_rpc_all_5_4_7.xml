@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.alipay.sofa:sofa-rpc-all:5.4.7">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alipay/sofa/sofa-rpc-all/5.4.7/sofa-rpc-all-5.4.7.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alipay/sofa/sofa-rpc-all/5.4.7/sofa-rpc-all-5.4.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alipay/sofa/sofa-rpc-all/5.4.7/sofa-rpc-all-5.4.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

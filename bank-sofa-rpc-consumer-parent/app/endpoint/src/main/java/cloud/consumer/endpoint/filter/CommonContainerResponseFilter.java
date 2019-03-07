@@ -1,0 +1,21 @@
+package cloud.consumer.endpoint.filter;
+
+import org.jboss.resteasy.plugins.interceptors.CorsFilter;
+
+import javax.ws.rs.container.PreMatching;
+import javax.ws.rs.ext.Provider;
+import java.util.Set;
+
+
+/**
+ * to add a self define filter to assure the port of 8080 can access the data exported on 8341 by rest service
+ */
+@Provider
+@PreMatching
+public class CommonContainerResponseFilter extends CorsFilter {
+
+    public void setAllowedOrigins(Set<String> allowedOrigins) {
+        this.allowedOrigins = allowedOrigins;
+    }
+
+}

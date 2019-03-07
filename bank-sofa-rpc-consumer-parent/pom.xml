@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.alipay.sofa</groupId>
+		<artifactId>sofaboot-enterprise-dependencies</artifactId>
+		<version>2.5.2</version>
+	</parent>
+
+	<groupId>cloud.consumer</groupId>
+	<artifactId>bank-sofa-rpc-consumer-parent</artifactId>
+	<version>1.0.0</version>
+	<packaging>pom</packaging>
+
+	<name>bank-sofa-rpc-consumer</name>
+
+	<properties>
+		<java.version>1.8</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
+
+	<dependencies>
+	</dependencies>
+
+	<dependencyManagement>
+		<dependencies>
+		
+			<dependency>
+				<groupId>cloud.provider</groupId>
+				<artifactId>bank-sofa-provider-facade</artifactId>
+				<version>1.0.0</version>
+			</dependency>
+		
+			<dependency>
+				<groupId>cloud.consumer</groupId>
+				<artifactId>bank-sofa-rpc-consumer-endpoint</artifactId>
+				<version>1.0.0</version>
+			</dependency>
+			<dependency>
+				<groupId>cloud.consumer</groupId>
+				<artifactId>bank-sofa-rpc-consumer-web</artifactId>
+				<version>1.0.0</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+					<includes>
+						<include>**/*Tests.java</include>
+						<include>**/*Test.java</include>
+					</includes>
+					<excludes>
+						<exclude>**/Abstract*.java</exclude>
+					</excludes>
+				</configuration>
+			</plugin>
+
+		</plugins>
+	</build>
+
+	<modules>
+		<module>app/endpoint</module>
+		<module>app/web</module>
+	</modules>
+</project>

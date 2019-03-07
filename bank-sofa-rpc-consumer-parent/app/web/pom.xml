@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>cloud.consumer</groupId>
+		<artifactId>bank-sofa-rpc-consumer-parent</artifactId>
+		<version>1.0.0</version>
+		<relativePath>../../pom.xml</relativePath>
+	</parent>
+
+	<artifactId>bank-sofa-rpc-consumer-web</artifactId>
+	<packaging>jar</packaging>
+
+	<name>bank-sofa-rpc-consumer-web</name>
+
+	<properties>
+		<java.version>1.8</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>cloud.provider</groupId>
+			<artifactId>bank-sofa-provider-facade</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>cloud.consumer</groupId>
+			<artifactId>bank-sofa-rpc-consumer-endpoint</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-logging</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.alipay.sofa</groupId>
+		    <artifactId>tracer-sofa-boot-starter</artifactId>
+		</dependency>
+		
+		<dependency>
+            <groupId>com.alipay.sofa</groupId>
+            <artifactId>sofa-tracer-datasource-plugin</artifactId>
+        </dependency>
+        
+        <dependency>
+		    <groupId>org.slf4j</groupId>
+		    <artifactId>slf4j-api</artifactId>
+		</dependency>
+		
+		<dependency>
+            <groupId>io.zipkin.zipkin2</groupId>
+            <artifactId>zipkin</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.zipkin.reporter2</groupId>
+            <artifactId>zipkin-reporter</artifactId>
+        </dependency>
+                
+		<dependency>
+            <groupId>com.alipay.sofa.lookout</groupId>
+            <artifactId>lookout-sofa-boot-starter</artifactId>
+        </dependency>
+		<dependency>
+            <groupId>com.alipay.sofa.lookout</groupId>
+            <artifactId>lookout-reg-prometheus</artifactId>
+        </dependency>
+	</dependencies>
+
+
+
+	<build>
+		<plugins>
+
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<!-- http://docs.spring.io/spring-boot/docs/current/maven-plugin/usage.html -->
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>1.4.2.RELEASE</version>
+				<configuration>
+					<!-- the target directory in workspace is where the fat jar deploy -->
+					<outputDirectory>../../target</outputDirectory>
+					<classifier>executable</classifier>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

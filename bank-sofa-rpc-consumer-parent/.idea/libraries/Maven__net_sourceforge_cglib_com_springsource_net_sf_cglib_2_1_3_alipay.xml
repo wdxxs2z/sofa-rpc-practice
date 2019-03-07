@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: net.sourceforge.cglib:com.springsource.net.sf.cglib:2.1.3.alipay">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/cglib/com.springsource.net.sf.cglib/2.1.3.alipay/com.springsource.net.sf.cglib-2.1.3.alipay.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/cglib/com.springsource.net.sf.cglib/2.1.3.alipay/com.springsource.net.sf.cglib-2.1.3.alipay-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/cglib/com.springsource.net.sf.cglib/2.1.3.alipay/com.springsource.net.sf.cglib-2.1.3.alipay-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
