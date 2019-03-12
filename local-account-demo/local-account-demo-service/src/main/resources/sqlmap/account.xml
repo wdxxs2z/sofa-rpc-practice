@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dtx">  
+	
+	<select id="getAccount" resultType="account">
+		select account_no,amount,freezed_amount from account where account_no=#{value}
+	</select>
+	
+	<select id="getAccountForUpdate" resultType="account">
+		select account_no,amount,freezed_amount from account where account_no=#{value} for update
+	</select>
+	
+	<insert id="addAccount" parameterType="account">
+		insert into account(account_no,amount,freezed_amount) values(#{accountNo},#{amount},#{freezedAmount})
+	</insert>
+	
+	<update id="updateAmount" parameterType="account">
+		update account set amount=#{amount} where account_no=#{accountNo}
+	</update>
+	
+	<update id="updateFreezedAmount" parameterType="account">
+		update account set freezed_amount=#{freezedAmount} where account_no=#{accountNo}
+	</update>
+	
+	<delete id="deleteAccount" >
+		delete from account
+	</delete>
+	
+
+</mapper>

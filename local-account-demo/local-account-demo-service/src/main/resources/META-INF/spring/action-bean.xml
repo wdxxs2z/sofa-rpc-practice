@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="GBK"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:sofa="http://schema.alipay.com/sofa/schema/slite"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://schema.alipay.com/sofa/schema/slite http://schema.alipay.com/sofa/slite.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"
+        default-autowire="byName">
+	
+	<!-- tcc transfer -->
+	<bean id="firstTccAction" class="com.alipay.sofa.dtx.account.tcc.impl.FirstTccActionImpl" />
+	<bean id="secondTccAction" class="com.alipay.sofa.dtx.account.tcc.impl.SecondTccActionImpl" />
+	 
+	<!-- auto transfer -->
+	<bean id="secondAutoAction" class="com.alipay.sofa.dtx.account.auto.impl.SecondAutoActionImpl" />
+	<bean id="firstAutoAction" class="com.alipay.sofa.dtx.account.auto.impl.FirstAutoActionImpl" />
+	
+	<!-- tcc point -->
+	<bean id="firstTccPointAction" class="com.alipay.sofa.dtx.account.point.impl.FirstTccPointActionImpl" />
+	<bean id="secondTccPointAction" class="com.alipay.sofa.dtx.account.point.impl.SecondTccPointActionImpl" />
+
+	<!-- auto point -->
+	<bean id="firstAutoPointAction" class="com.alipay.sofa.dtx.account.point.impl.FirstAutoPointActionImpl" />
+	<bean id="secondAutoPointAction" class="com.alipay.sofa.dtx.account.point.impl.SecondAutoPointActionImpl" />
+	
+</beans>

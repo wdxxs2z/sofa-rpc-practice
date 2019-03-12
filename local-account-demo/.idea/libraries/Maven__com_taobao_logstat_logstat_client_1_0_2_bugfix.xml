@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.taobao.logstat:logstat-client:1.0.2.bugfix">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/logstat/logstat-client/1.0.2.bugfix/logstat-client-1.0.2.bugfix.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/logstat/logstat-client/1.0.2.bugfix/logstat-client-1.0.2.bugfix-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/logstat/logstat-client/1.0.2.bugfix/logstat-client-1.0.2.bugfix-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

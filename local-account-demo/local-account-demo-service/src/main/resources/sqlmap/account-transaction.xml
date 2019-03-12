@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dtx">  
+	
+	<select id="getAccountTransaction" resultType="accountTransaction">
+		select * from account_transaction where tx_id=#{txId} for update
+	</select>
+	
+	<insert id="addAccountTransaction" parameterType="accountTransaction">
+		insert into account_transaction(tx_id,account_no,amount,type)
+		values(#{txId},#{accountNo},#{amount},#{type})
+	</insert>
+	
+	<delete id="deleteAccountTransaction" parameterType="accountTransaction" >
+		delete from account_transaction where tx_id =#{txId}
+	</delete>
+	
+	<delete id="deleteAllTransaction" >
+		delete from account_transaction
+	</delete>
+
+</mapper>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="GBK"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:sofa="http://schema.alipay.com/sofa/schema/slite"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://schema.alipay.com/sofa/schema/slite http://schema.alipay.com/sofa/slite.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"
+        default-autowire="byName">
+	
+	<bean id="tcc_second_dtx_datasource" class="com.alipay.sofa.dtx.datasource.WrappedDtxDataSource">
+		<property name="targetDataSource" ref="tcc_second_action_ds" />
+		<property name="dbType" value="MYSQL" />
+		<property name="uniqueDbId" value="second_dtx_ds" />
+	</bean>
+	
+	<!-- auto  =================================== -->
+	<bean id="tcc_second_action_datasource_sqlSessionFactory_auto" class="org.mybatis.spring.SqlSessionFactoryBean">  
+    	<property name="dataSource" ref="tcc_second_dtx_datasource" />   
+      	<property  name="configLocation"  value="classpath:sqlmap/sqlMapConfig.xml"/>  
+ 	</bean>
+    
+	<bean id="tcc_second_action_sqlSession_auto" class="org.mybatis.spring.SqlSessionTemplate">   
+	 	<constructor-arg index="0" ref="tcc_second_action_datasource_sqlSessionFactory_auto" />   
+	</bean>
+	
+	<bean id="tcc_second_action_TransactionManager_auto" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="tcc_second_dtx_datasource" />
+	</bean>
+
+	<bean id="tccSecondActionTransactionTemplateAuto" class="org.springframework.transaction.support.TransactionTemplate">
+		<property name="propagationBehaviorName">
+			<value>PROPAGATION_REQUIRES_NEW</value>
+		</property>
+		<property name="transactionManager">
+			<ref bean="tcc_second_action_TransactionManager_auto" />
+		</property>
+	</bean>
+
+	<bean id="tcc_second_action_SqlMapClientDAO_auto" abstract="true">
+		<property name="sqlSession">
+			<ref bean="tcc_second_action_sqlSession_auto" />
+		</property>
+	</bean>
+	
+
+</beans>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>  
+	
+	<settings>  
+        <setting name="mapUnderscoreToCamelCase" value="true" />  
+    </settings>  
+    
+	<typeAliases>
+		<typeAlias alias="account" type="com.alipay.sofa.dtx.account.domain.Account"/>
+		<typeAlias alias="accountTransaction" type="com.alipay.sofa.dtx.account.domain.AccountTransaction"/>
+		<typeAlias alias="accountPoint" type="com.alipay.sofa.dtx.account.domain.AccountPoint"/>
+ 	</typeAliases>
+  	
+  	<mappers>  
+    	<mapper resource="sqlmap/account.xml" />
+    	<mapper resource="sqlmap/account-transaction.xml" />  
+  		<mapper resource="sqlmap/account-point.xml" />  
+    </mappers>
+    
+</configuration>  
