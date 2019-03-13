@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:sofa="http://schema.alipay.com/sofa/schema/slite"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://schema.alipay.com/sofa/schema/slite http://schema.alipay.com/sofa/slite.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <bean id="drmService" class="com.alipay.demo.sofadrm.app.impl.DrmServiceImpl"/>
+
+    <sofa:service interface="com.alipay.demo.sofadrm.api.DrmService" ref="drmService" >
+        <sofa:binding.bolt/>
+        <sofa:binding.rest/>
+    </sofa:service>
+
+    <bean id="drmDynamicConfig" class="com.alipay.demo.sofadrm.app.drmresource.DrmDynamicConfig" init-method="init"/>
+
+    <bean class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
+        <property name="interceptorNames">
+            <list>
+                <value>guardianExtendInterceptor</value>
+            </list>
+        </property>
+        <property name="beanNames">
+            <list>
+                <!-- 配置需要被拦截的 bean -->
+                <value>*Service</value>
+            </list>
+        </property>
+        <!-- 如要使用 CGLIB 代理，取消下面这行的注释 -->
+        <!-- <property name="optimize" value="true" /> -->
+    </bean>
+</beans>
