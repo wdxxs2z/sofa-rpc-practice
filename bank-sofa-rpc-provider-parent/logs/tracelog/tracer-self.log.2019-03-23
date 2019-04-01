@@ -1,0 +1,10 @@
+2019-03-23 15:10:37.186[WARN]  datasource-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-03-23 15:10:42.450[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-03-23 15:10:42.451[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-03-23 15:10:42.451[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-03-23 15:10:42.451[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-03-23 15:14:12.949[WARN]  datasource-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-03-23 15:14:18.262[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-03-23 15:14:18.263[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-03-23 15:14:18.263[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-03-23 15:14:18.263[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60

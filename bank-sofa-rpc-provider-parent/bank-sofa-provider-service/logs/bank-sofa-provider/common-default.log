@@ -1,0 +1,23 @@
+2019-03-28 09:54:03.037 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual logging.path is [ ./logs ]
+2019-03-28 09:54:03.042 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.infra Logback ]
+2019-03-28 09:54:03.071 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.mw.access in Java -D argument, put value xxx into System
+2019-03-28 09:54:03.071 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.antvip.endpoint in Java -D argument, put value 100.103.1.174 into System
+2019-03-28 09:54:03.071 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.mw.secret in Java -D argument, put value xxx into System
+2019-03-28 09:54:03.071 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.alipay.env in Java -D argument, put value shared into System
+2019-03-28 09:54:03.071 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.alipay.instanceid in Java -D argument, put value IPYJUBMB231N into System
+2019-03-28 09:54:03.081 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.rest Logback ]
+2019-03-28 09:54:03.112 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.rpc Logback ]
+2019-03-28 09:54:03.415 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-03-28 09:54:08.186 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual logging.path is [ ./logs ]
+2019-03-28 09:54:08.187 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.runtime Logback ]
+2019-03-28 09:54:08.211 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual logging.path is [ ./logs ]
+2019-03-28 09:54:08.212 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.healthcheck Logback ]
+2019-03-28 09:54:13.267 [main] INFO  cloud.provider.test.usercase.BeanTest - Starting BeanTest on ali-180366.local with PID 73797 (started by yuanshaopeng in /Users/yuanshaopeng/Project/sofa-practice-code/sofa-rpc/bank-sofa-rpc-provider-parent/bank-sofa-provider-service)
+2019-03-28 09:54:13.267 [main] INFO  cloud.provider.test.usercase.BeanTest - No active profile set, falling back to default profiles: default
+2019-03-28 09:54:13.309 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4007f65e: startup date [Thu Mar 28 09:54:13 CST 2019]; root of context hierarchy
+2019-03-28 09:54:13.763 [main] INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [/Users/yuanshaopeng/Project/sofa-practice-code/sofa-rpc/bank-sofa-rpc-provider-parent/bank-sofa-provider-service/target/classes/META-INF/xingye-sofa-rpc-provider/bank-sofa-provider-service.xml]
+2019-03-28 09:54:15.110 [main] WARN  o.s.context.annotation.ConfigurationClassEnhancer - @Bean method SofaTracerDataSourceAutoConfiguration.DataSourceBeanFactoryPostProcessor is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2019-03-28 09:54:15.249 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-28 09:54:15.275 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'simple-sofa-rest-conf-for-spring' of type [com.alipay.sofa.rest.spring.config.SimpleSpringSofaRestConfig$$EnhancerBySpringCGLIB$$92cd0f85] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 09:54:15.706 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.rpc.boot Logback ]
+2019-03-28 09:54:20.901 [main] INFO  o.j.r.p.v.AbstractValidatorContextResolver - Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory

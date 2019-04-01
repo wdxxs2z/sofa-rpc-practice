@@ -1,0 +1,3 @@
+2019-03-28 09:54:03,142 INFO  main                             - sofa rpc run.mode = DEV
+2019-03-28 09:54:03,142 INFO  main                             - PID:73797 sofa rpc starting!
+2019-03-28 09:54:03,143 INFO  main                             - the run.mode is DEV

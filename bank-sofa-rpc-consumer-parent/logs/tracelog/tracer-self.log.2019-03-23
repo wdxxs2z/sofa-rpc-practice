@@ -1,0 +1,5 @@
+2019-03-23 15:20:17.494[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-03-23 15:20:17.501[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-03-23 15:20:17.503[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-03-23 15:20:17.503[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-03-23 15:22:17.574[WARN]  spring-mvc-stat.log configured stat_log_interval=60 second and default cycle=60

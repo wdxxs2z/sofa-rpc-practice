@@ -1,0 +1,21 @@
+2019-03-23 15:19:54,304 INFO  main                             - sofa rpc run.mode = DEV
+2019-03-23 15:19:54,305 INFO  main                             - PID:31884 sofa rpc starting!
+2019-03-23 15:19:54,306 INFO  main                             - the run.mode is DEV
+2019-03-23 15:20:17,437 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.4.7_20181025093119, PID is:31884
+2019-03-23 15:20:17,453 INFO  main                             - Install Module: fault-tolerance
+2019-03-23 15:20:17,465 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-03-23 15:20:17,467 INFO  main                             - Extension of extensible com.alipay.sofa.rpc.tracer.Tracer with alias sofaTracer: class com.alipay.sofa.rpc.tracer.log.sofatracer.EnterpriseRpcSofaTracer has been loaded, ignore origin class com.alipay.sofa.rpc.tracer.sofatracer.RpcSofaTracer
+2019-03-23 15:20:17,506 INFO  main                             - Install Module: lookout
+2019-03-23 15:20:17,509 INFO  main                             - Install Module: sofaTracer
+2019-03-23 15:20:17,599 INFO  main                             - Refer consumer config : bolt://cloud.provider.facade.CallerService: with bean id callerService
+2019-03-23 15:20:17,612 INFO  main                             - Extension of extensible com.alipay.sofa.rpc.client.Router with alias registry: class com.alipay.sofa.rpc.router.DsrRegistryRouter has been loaded, ignore origin class com.alipay.sofa.rpc.client.router.RegistryRouter
+2019-03-23 15:20:17,647 INFO  main                             - Extension of extensible com.alipay.sofa.rpc.registry.Registry with alias mesh: class com.alipay.sofa.rpc.registry.mesh.EnterpriseMeshRegistry has been loaded, ignore origin class com.alipay.sofa.rpc.registry.mesh.MeshRegistry
+2019-03-23 15:20:24,187 INFO  main                             - transmit will not start with config is null
+2019-03-23 15:22:17,623 INFO  http-nio-8090-exec-1             - Load tracer impl success: sofaTracer, com.alipay.sofa.rpc.tracer.log.sofatracer.EnterpriseRpcSofaTracer@6673f03
+2019-03-23 18:23:02,972 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2019-03-23 18:23:02,983 INFO  SOFA-RPC-ShutdownHook            - UnRefer consumer config : bolt://cloud.provider.facade.CallerService: with bean id callerService
+2019-03-23 18:23:02,990 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2019-03-23 18:23:02,990 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2019-03-23 18:23:02,990 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: lookout
+2019-03-23 18:23:02,990 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2019-03-23 18:23:02,992 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...

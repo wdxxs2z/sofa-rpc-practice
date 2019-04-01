@@ -1,0 +1,76 @@
+2019-03-21 18:42:45,985 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Start the http rest server at port 8888
+2019-03-21 18:42:45,985 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8888
+2019-03-21 18:42:45,994 ERROR main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service error
+java.lang.RuntimeException: Class is not a root resource.  It, or one of its interfaces must be annotated with @Path: cloud.provider.service.CallerServiceImpl implements:  cloud.provider.facade.CallerService
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addResourceFactory(ResourceMethodRegistry.java:177)
+	at com.alipay.sofa.rpc.server.rest.SofaResourceMethodRegistry.addResourceFactory(SofaResourceMethodRegistry.java:51)
+	at com.alipay.sofa.rpc.server.rest.RestServer.registerProcessor(RestServer.java:190)
+	at com.alipay.sofa.rpc.bootstrap.DefaultProviderBootstrap.doExport(DefaultProviderBootstrap.java:176)
+	at com.alipay.sofa.rpc.bootstrap.DefaultProviderBootstrap.export(DefaultProviderBootstrap.java:105)
+	at com.alipay.sofa.rpc.config.ProviderConfig.export(ProviderConfig.java:524)
+	at com.alipay.sofa.rpc.boot.runtime.adapter.RpcBindingAdapter.outBinding(RpcBindingAdapter.java:84)
+	at com.alipay.sofa.rpc.boot.runtime.adapter.RpcBindingAdapter.outBinding(RpcBindingAdapter.java:42)
+	at com.alipay.sofa.runtime.service.component.ServiceComponent.activateBinding(ServiceComponent.java:157)
+	at com.alipay.sofa.runtime.service.component.ServiceComponent.activate(ServiceComponent.java:126)
+	at com.alipay.sofa.runtime.component.impl.ComponentManagerImpl.doRegister(ComponentManagerImpl.java:156)
+	at com.alipay.sofa.runtime.component.impl.ComponentManagerImpl.register(ComponentManagerImpl.java:112)
+	at com.alipay.sofa.runtime.spring.factory.ServiceFactoryBean.doAfterPropertiesSet(ServiceFactoryBean.java:69)
+	at com.alipay.sofa.runtime.spring.factory.AbstractContractFactoryBean.afterPropertiesSet(AbstractContractFactoryBean.java:96)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1689)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1627)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:742)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at cloud.provider.SOFABootSpringApplication.main(SOFABootSpringApplication.java:16)
+2019-03-21 18:42:47,362 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12201
+2019-03-21 18:47:00,297 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.server.ServerFactory - Destroy all server now!
+2019-03-21 18:47:00,298 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.server.rest.RestServer - Stop the http rest server at port 8888
+2019-03-21 18:47:00,298 INFO  Thread-5                         com.alipay.sofa.rpc.server.rest.RestServer - Unregister jaxrs service to port 8888 and base path is 
+2019-03-21 18:47:00,299 ERROR Thread-5                         com.alipay.sofa.rpc.server.rest.RestServer - Unregister jaxrs service error
+java.lang.NullPointerException: null
+	at org.jboss.resteasy.core.ResourceMethodRegistry.removeRegistration(ResourceMethodRegistry.java:398)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.removeRegistrations(ResourceMethodRegistry.java:378)
+	at com.alipay.sofa.rpc.server.rest.RestServer.unRegisterProcessor(RestServer.java:209)
+	at com.alipay.sofa.rpc.bootstrap.DefaultProviderBootstrap.unExport(DefaultProviderBootstrap.java:303)
+	at com.alipay.sofa.rpc.config.ProviderConfig.unExport(ProviderConfig.java:532)
+	at com.alipay.sofa.rpc.boot.container.ProviderConfigContainer.unExportAllProviderConfig(ProviderConfigContainer.java:157)
+	at com.alipay.sofa.rpc.boot.context.ApplicationContextClosedListener.onApplicationEvent(ApplicationContextClosedListener.java:44)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:991)
+	at org.springframework.context.support.AbstractApplicationContext$2.run(AbstractApplicationContext.java:929)
+2019-03-21 18:47:00,303 INFO  Thread-5                         com.alipay.sofa.rpc.server.rest.RestServer - Stop the http rest server at port 8888
+2019-03-21 18:48:01,254 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Start the http rest server at port 8888
+2019-03-21 18:48:01,254 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8888
+2019-03-21 18:48:02,661 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12201
+2019-03-21 19:10:58,158 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.server.ServerFactory - Destroy all server now!
+2019-03-21 19:10:58,158 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.server.rest.RestServer - Stop the http rest server at port 8888
+2019-03-21 19:10:58,159 INFO  Thread-5                         com.alipay.sofa.rpc.server.rest.RestServer - Unregister jaxrs service to port 8888 and base path is 
+2019-03-21 19:10:58,164 INFO  Thread-5                         com.alipay.sofa.rpc.server.rest.RestServer - Stop the http rest server at port 8888
+2019-03-21 19:12:03,210 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Start the http rest server at port 8888
+2019-03-21 19:12:03,210 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8888
+2019-03-21 19:12:04,470 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12201
+2019-03-21 19:12:21,848 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.server.ServerFactory - Destroy all server now!
+2019-03-21 19:12:21,849 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.server.rest.RestServer - Stop the http rest server at port 8888
+2019-03-21 19:12:21,849 INFO  Thread-5                         com.alipay.sofa.rpc.server.rest.RestServer - Unregister jaxrs service to port 8888 and base path is 
+2019-03-21 19:12:21,855 INFO  Thread-5                         com.alipay.sofa.rpc.server.rest.RestServer - Stop the http rest server at port 8888
+2019-03-21 19:15:38,831 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Start the http rest server at port 8888
+2019-03-21 19:15:38,832 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8888
+2019-03-21 19:15:40,107 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12201
+2019-03-21 19:16:05,393 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.server.ServerFactory - Destroy all server now!
+2019-03-21 19:16:05,394 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.server.rest.RestServer - Stop the http rest server at port 8888
+2019-03-21 19:16:05,395 INFO  Thread-5                         com.alipay.sofa.rpc.server.rest.RestServer - Unregister jaxrs service to port 8888 and base path is 
+2019-03-21 19:16:05,398 INFO  Thread-5                         com.alipay.sofa.rpc.server.rest.RestServer - Stop the http rest server at port 8888

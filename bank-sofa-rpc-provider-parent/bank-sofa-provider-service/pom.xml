@@ -30,6 +30,7 @@
 			<groupId>com.alipay.sofa</groupId>
 			<artifactId>rpc-enterprise-sofa-boot-starter</artifactId>
 		</dependency>
+
 		<dependency>
 			<groupId>com.alipay.sofa</groupId>
 			<artifactId>sofa-tracer-datasource-plugin</artifactId>

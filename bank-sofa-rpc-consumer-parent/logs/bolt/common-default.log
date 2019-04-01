@@ -1,0 +1,5 @@
+2019-03-26 11:24:45,926 WARN  [RemotingServer#56] [main] Initialize the server.
+2019-03-26 11:24:45,931 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12202
+2019-03-26 12:53:59,895 WARN  [DefaultConnectionManager#365] [SOFA-CLI-DISCONN-cloud.provider.facade.CallerService-7-T1] Remove and close all connections in ConnectionPool of poolKey=192.168.43.142:12201
+2019-03-26 12:53:59,898 INFO  [Connection$1#308] [Rpc-netty-client-worker-1-thread-1] Close the connection to remote address=192.168.43.142:12201, result=true, cause=null
+2019-03-26 12:53:59,902 WARN  [DefaultConnectionManager#334] [Rpc-netty-client-worker-1-thread-1] Remove and close a standalone connection.

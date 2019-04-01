@@ -1,0 +1,8 @@
+2019-03-21 18:42:47,400 INFO  main                             - service published.  interfaceId[cloud.provider.facade.CallerService]; protocol[bolt]
+2019-03-21 18:42:47,402 INFO  main                             - service published.  interfaceId[cloud.provider.facade.CallerService]; protocol[rest]
+2019-03-21 18:48:02,695 INFO  main                             - service published.  interfaceId[cloud.provider.facade.CallerService]; protocol[bolt]
+2019-03-21 18:48:02,697 INFO  main                             - service published.  interfaceId[cloud.provider.facade.CallerService]; protocol[rest]
+2019-03-21 19:12:04,515 INFO  main                             - service published.  interfaceId[cloud.provider.facade.CallerService]; protocol[bolt]
+2019-03-21 19:12:04,517 INFO  main                             - service published.  interfaceId[cloud.provider.facade.CallerService]; protocol[rest]
+2019-03-21 19:15:40,140 INFO  main                             - service published.  interfaceId[cloud.provider.facade.CallerService]; protocol[bolt]
+2019-03-21 19:15:40,141 INFO  main                             - service published.  interfaceId[cloud.provider.facade.CallerService]; protocol[rest]

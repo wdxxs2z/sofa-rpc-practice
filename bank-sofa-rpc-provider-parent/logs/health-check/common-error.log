@@ -1,0 +1,6 @@
+2019-03-23 15:11:08,900 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"service:cloud.provider.facade.CallerService":"Status: RESOLVED"}; strict mode:true
+2019-03-23 15:11:08,901 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2019-03-23 15:11:08,975 ERROR main                             - SOFABoot ReadinessCheckCallback[rpcAfterHealthCheckCallback] check failed, the details is: {"Exception":"Failed to start jetty server at port 8341, cause: Address already in use"}.
+2019-03-23 15:11:08,975 ERROR main                             - SofaBootMiddlewareAfterReadinessCheckCallback check result: failed.
+2019-03-23 15:11:08,975 ERROR main                             - SOFABoot ReadinessCheckCallback check: failed.
+2019-03-23 15:11:08,975 ERROR main                             - Readiness check result: fail

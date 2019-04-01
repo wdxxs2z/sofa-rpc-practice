@@ -1,0 +1,8 @@
+2019-03-23 15:20:12.164 [localhost-startStop-1] INFO  com.alipay.lookout.remote.report.SchedulerPoller - started collecting and reporting priority:NORMAL metrics every 30000 
+2019-03-23 15:20:12.164 [localhost-startStop-1] INFO  com.alipay.lookout.remote.report.SchedulerPoller - started collecting and reporting priority:HIGH metrics every 2000 
+2019-03-23 15:20:12.164 [localhost-startStop-1] INFO  com.alipay.lookout.remote.report.SchedulerPoller - started collecting and reporting priority:LOW metrics every 60000 
+2019-03-23 15:20:12.165 [localhost-startStop-1] INFO  com.alipay.lookout.client.DefaultLookoutClient - add a registry:LookoutRegistry
+2019-03-23 15:20:12.202 [localhost-startStop-1] INFO  c.alipay.lookout.reg.prometheus.PrometheusRegistry - lookout client exporter is started. server port:9597
+2019-03-23 15:20:12.203 [localhost-startStop-1] INFO  com.alipay.lookout.client.DefaultLookoutClient - add a registry:PrometheusRegistry
+2019-03-23 15:20:12.203 [localhost-startStop-1] INFO  com.alipay.lookout.client.DefaultLookoutClient - add a registry:SpringBootActuatorRegistry
+2019-03-23 18:23:03.577 [Thread-7] INFO  c.alipay.lookout.reg.prometheus.PrometheusRegistry - lookout client exporter is stopped.

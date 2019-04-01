@@ -14,4 +14,11 @@
 
 	<name>bank-sofa-provider-facade</name>
 
+	<dependencies>
+		<dependency>
+			<groupId>com.alipay.sofa</groupId>
+			<artifactId>rest-enterprise-sofa-boot-starter</artifactId>
+		</dependency>
+	</dependencies>
+
 </project>

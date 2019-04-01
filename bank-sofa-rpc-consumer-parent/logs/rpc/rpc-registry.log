@@ -1,0 +1,2 @@
+2019-03-26 11:24:44,253 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from /Users/yuanshaopeng/localFileRegistry/localRegistry.reg
+2019-03-26 12:53:59,889 INFO  SOFA-LocalRegistry-Back-Load-3-T1 com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from /Users/yuanshaopeng/localFileRegistry/localRegistry.reg

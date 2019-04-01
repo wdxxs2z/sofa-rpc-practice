@@ -1,0 +1,4 @@
+2019-03-23 15:22:17,673 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-1] Connection channel registered: 10.67.102.247:52133
+2019-03-23 15:22:17,676 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-1] Connection channel active: 10.67.102.247:52133
+2019-03-23 15:41:43,615 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-1] Connection channel inactive: 10.67.102.247:52133
+2019-03-23 15:41:43,616 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-1] Connection channel unregistered: 10.67.102.247:52133

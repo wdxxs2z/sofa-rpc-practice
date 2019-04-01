@@ -1,0 +1,3 @@
+2019-03-26 11:25:19.440,bank-sofa-providers,c0a82b8e1553570719121100155649,0.1.2,cloud.provider.facade.CallerService:1.0,getCurrentTracerInfo,bolt,,192.168.43.142,xingye-sofa-rpc-consumer,,,17ms,5ms,SOFA-SEV-BOLT-BIZ-12201-3-T1,00,,,2ms,,bizKey=demoTest&
+2019-03-26 11:27:46.107,bank-sofa-providers,c0a82b8e1553570865801100355649,0.1.2,cloud.provider.facade.CallerService:1.0,create,bolt,,192.168.43.142,xingye-sofa-rpc-consumer,,,298ms,0ms,SOFA-SEV-BOLT-BIZ-12201-3-T2,00,,,0ms,,
+2019-03-26 11:27:51.804,bank-sofa-providers,c0a82b8e1553570871795100455649,0.1.2,cloud.provider.facade.CallerService:1.0,datasource,bolt,,192.168.43.142,xingye-sofa-rpc-consumer,,,0ms,0ms,SOFA-SEV-BOLT-BIZ-12201-3-T3,00,,,0ms,,

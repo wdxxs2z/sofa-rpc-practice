@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.alipay.sofa.rest:sofa-value-added-provider:1.6.16">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alipay/sofa/rest/sofa-value-added-provider/1.6.16/sofa-value-added-provider-1.6.16.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alipay/sofa/rest/sofa-value-added-provider/1.6.16/sofa-value-added-provider-1.6.16-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alipay/sofa/rest/sofa-value-added-provider/1.6.16/sofa-value-added-provider-1.6.16-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

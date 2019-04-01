@@ -1,0 +1,5 @@
+2019-03-23 15:23:17.491,xingye-sofa-rpc-consumer,,cloud.provider.facade.CallerService:1.0,datasource,1,289,Y,F,
+2019-03-23 15:25:17.486,xingye-sofa-rpc-consumer,,cloud.provider.facade.CallerService:1.0,datasource,8,31,Y,F,
+2019-03-23 15:25:17.487,xingye-sofa-rpc-consumer,,cloud.provider.facade.CallerService:1.0,create,1,2,Y,F,
+2019-03-23 15:27:17.486,xingye-sofa-rpc-consumer,,cloud.provider.facade.CallerService:1.0,getCurrentTracerInfo,2,11,Y,F,
+2019-03-23 15:29:17.479,xingye-sofa-rpc-consumer,,cloud.provider.facade.CallerService:1.0,getCurrentTracerInfo,2,8,Y,F,
