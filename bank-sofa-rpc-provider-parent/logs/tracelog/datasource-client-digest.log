@@ -1,2 +1,0 @@
-{"time":"2019-03-26 11:27:46.104","local.app":"bank-sofa-providers","traceId":"c0a82b8e1553570865801100355649","spanId":"0.1.2.1","database.name":"test","sql":"DROP TABLE IF EXISTS TEST;
-CREATE TABLE TEST(ID INT PRIMARY KEY%2C NAME VARCHAR(255));","result.code":"success","total.time":"11ms","connection.establish.span":"275ms","db.execute.cost":"11ms","database.type":"h2","database.endpoint":"jdbc:h2:~/test:-1","current.thread.name":"SOFA-SEV-BOLT-BIZ-12201-3-T2","baggage":""}

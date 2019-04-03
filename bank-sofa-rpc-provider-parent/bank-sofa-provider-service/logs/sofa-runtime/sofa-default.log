@@ -1,3 +1,0 @@
-2019-03-28 09:54:08,206 INFO  main                             - SOFABoot Runtime Starting!
-2019-03-28 09:54:21,046 INFO  main                             - Registering component: service:cloud.provider.facade.CallerService
-2019-03-28 09:54:21,046 INFO  main                             -  <<PreOut Binding [tr] Begins - cloud.provider.facade.CallerService.

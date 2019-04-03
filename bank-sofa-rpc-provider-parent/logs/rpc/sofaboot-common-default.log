@@ -1,2 +1,0 @@
-2019-03-26 11:23:39,792 INFO  main                             - service published.  interfaceId[cloud.provider.facade.CallerService]; protocol[bolt]
-2019-03-26 11:23:39,794 INFO  main                             - service published.  interfaceId[cloud.provider.facade.CallerService]; protocol[rest]

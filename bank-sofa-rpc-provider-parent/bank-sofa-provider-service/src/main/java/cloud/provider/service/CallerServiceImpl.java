@@ -47,7 +47,8 @@ public class CallerServiceImpl implements cloud.provider.facade.CallerService {
 		try {
 			Connection cn = simpleDataSource.getConnection();
 			Statement st = cn.createStatement();
-			st.execute("DROP TABLE IF EXISTS TEST;\n" + "CREATE TABLE TEST(ID INT PRIMARY KEY, NAME VARCHAR(255));");
+			st.execute("DROP TABLE IF EXISTS test");
+			st.execute("create table test(ID INT PRIMARY KEY, NAME VARCHAR(255))");
 			resultMap.put("success", true);
 			resultMap.put("result", "CREATE TABLE TEST(ID INT PRIMARY KEY, NAME VARCHAR(255))");
 		} catch (Throwable throwable) {

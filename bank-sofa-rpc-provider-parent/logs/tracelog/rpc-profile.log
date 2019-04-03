@@ -1,3 +1,0 @@
-2019-03-23 15:25:05.344,bank-sofa-providers,0a4366f71553325904978101931884,0.1.2,bolt,调用SOFA的TR服务[cloud.provider.facade.CallerService:1.0]:方法为[create]耗时[349]ms，发起请求的地址为：[10.67.102.247].
-0 [349ms, 100%] - 调用SOFA的TR服务：方法为：[create] 参数个数为：0
-

@@ -1,6 +1,0 @@
-2019-03-28 09:54:03.097 [main] INFO  c.a.b.s.s.i.RestApplicationContextInitializer - Existed DSR com.alipay.instanceid = IPYJUBMB231N
-2019-03-28 09:54:03.097 [main] INFO  c.a.b.s.s.i.RestApplicationContextInitializer - Existed DSR com.alipay.env = shared
-2019-03-28 09:54:03.097 [main] INFO  c.a.b.s.s.i.RestApplicationContextInitializer - Existed DSR com.antcloud.antvip.endpoint = 100.103.1.174
-2019-03-28 09:54:03.097 [main] INFO  c.a.b.s.s.i.RestApplicationContextInitializer - sofa rest starting!
-2019-03-28 09:54:20.887 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap - register rest resource(name:cloud.provider.service.CallerServiceImpl)
-2019-03-28 09:54:21.034 [main] INFO  c.a.s.r.s.RestComponentsPropertyInjectProcessor - A rest resource is found . register it (callerService). 

@@ -1,5 +1,0 @@
-2019-03-23 15:23:12.936,xingye-sofa-rpc-consumer,bank-sofa-providers,cloud.provider.facade.CallerService:1.0,datasource,1,16,Y,F,
-2019-03-23 15:25:12.930,xingye-sofa-rpc-consumer,bank-sofa-providers,cloud.provider.facade.CallerService:1.0,datasource,8,6,Y,F,
-2019-03-23 15:25:12.930,xingye-sofa-rpc-consumer,bank-sofa-providers,cloud.provider.facade.CallerService:1.0,create,1,368,Y,F,
-2019-03-23 15:27:12.928,xingye-sofa-rpc-consumer,bank-sofa-providers,cloud.provider.facade.CallerService:1.0,getCurrentTracerInfo,2,2,Y,F,
-2019-03-23 15:29:12.923,xingye-sofa-rpc-consumer,bank-sofa-providers,cloud.provider.facade.CallerService:1.0,getCurrentTracerInfo,2,0,Y,F,

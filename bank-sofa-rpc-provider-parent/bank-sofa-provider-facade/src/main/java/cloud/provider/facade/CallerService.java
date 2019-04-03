@@ -15,12 +15,18 @@ public interface CallerService {
 	@Path("/message")
     String message();
 
+	@GET
+	@Path("/datasource")
 	Map<String, Object> datasource(String name);
 
+	@GET
+	@Path("/create")
 	Map<String, Object> create();
-	
+
 	double division(double a, double b);
-	
+
+	@GET
+	@Path("/tracer")
 	Map<String, Object> getCurrentTracerInfo();
 }
 

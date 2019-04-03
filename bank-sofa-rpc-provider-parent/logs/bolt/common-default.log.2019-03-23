@@ -1,5 +1,0 @@
-2019-03-23 15:11:08,932 WARN  [RemotingServer#56] [main] Initialize the server.
-2019-03-23 15:11:08,950 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12201
-2019-03-23 15:14:24,711 WARN  [RemotingServer#56] [main] Initialize the server.
-2019-03-23 15:14:24,727 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12201
-2019-03-23 15:41:43,606 WARN  [ServerIdleHandler#50] [Rpc-netty-server-worker-1-thread-1] Connection idle, close it from server side: 10.67.102.247:52133
