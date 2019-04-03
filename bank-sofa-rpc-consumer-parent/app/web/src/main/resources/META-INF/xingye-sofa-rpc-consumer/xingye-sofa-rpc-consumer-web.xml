@@ -12,7 +12,7 @@
         <sofa:binding.bolt >
             <sofa:method name="message" type="future" timeout="25000" />
             <sofa:method name="datasource" type="sync" timeout="15000" />
-            <sofa:method name="create" type="oneway" />
+            <sofa:method name="create" /> <!-- type="oneway"-->
             <sofa:method name="division" type="callback" callback-class="cloud.consumer.callback.DivisionCallBack" />
             <sofa:method name="getCurrentTracerInfo" type="sync" />
         </sofa:binding.bolt>

@@ -1,4 +1,0 @@
-{"time":"2019-03-26 11:25:44.084","stat.key":{"method":"GET","local.app":"xingye-sofa-rpc-consumer","request.url":"http://127.0.0.1:8090/callrpc/tracer_info"},"count":1,"total.cost.milliseconds":414,"success":"true","load.test":"F"}
-{"time":"2019-03-26 11:27:44.078","stat.key":{"method":"GET","local.app":"xingye-sofa-rpc-consumer","request.url":"http://127.0.0.1:8090/callrpc/hellorpc"},"count":1,"total.cost.milliseconds":7,"success":"false","load.test":"F"}
-{"time":"2019-03-26 11:28:44.075","stat.key":{"method":"GET","local.app":"xingye-sofa-rpc-consumer","request.url":"http://127.0.0.1:8090/callrpc/create"},"count":1,"total.cost.milliseconds":10,"success":"true","load.test":"F"}
-{"time":"2019-03-26 11:28:44.075","stat.key":{"method":"GET","local.app":"xingye-sofa-rpc-consumer","request.url":"http://127.0.0.1:8090/callrpc/datasource"},"count":1,"total.cost.milliseconds":16,"success":"true","load.test":"F"}

@@ -1,3 +1,0 @@
-2019-03-08 01:05:55,759 INFO  main                             com.alipay.sofa.rpc.client.AbstractCluster - Connection will be initialized when first invoke.
-2019-03-08 01:05:55,770 INFO  main                             com.alipay.sofa.rpc.client.AllConnectConnectionHolder - Add provider of cloud.provider.facade.CallerService, size is : 1
-2019-03-08 01:06:07,238 INFO  main                             com.alipay.sofa.rpc.client.aft.FaultToleranceConfigManager - Get a new resource, value[FaultToleranceConfig{timeWindow=10, leastCallCount=100, leastWindowCount=10, leastWindowExceptionRateMultiple=6.0, regulationEffective=false, weightDegradeRate=0.05, degradeEffective=false, degradeLeastWeight=1, weightRecoverRate=2.0, degradeMaxIpCount=2}]

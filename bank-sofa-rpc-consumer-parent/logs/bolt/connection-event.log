@@ -1,6 +1,0 @@
-2019-03-26 11:25:19,181 INFO  [ConnectionEventHandler#292] [Rpc-netty-client-worker-1-thread-1] Connection channel registered: UNKNOWN-ADDR
-2019-03-26 11:25:19,183 INFO  [ConnectionEventHandler#80] [Rpc-netty-client-worker-1-thread-1] Try connect to 192.168.43.142:12201
-2019-03-26 11:25:19,189 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-1-thread-1] Connection channel active: 192.168.43.142:12201
-2019-03-26 12:53:59,895 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-1-thread-1] Connection closed: 192.168.43.142:12201
-2019-03-26 12:53:59,902 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-1-thread-1] Connection channel inactive: 192.168.43.142:12201
-2019-03-26 12:53:59,903 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-1-thread-1] Connection channel unregistered: 192.168.43.142:12201

@@ -1,3 +1,0 @@
-2019-03-26 11:24:44,425 WARN  [RpcConnectionFactory#237] [SOFA-CLI-CONN-cloud.provider.facade.CallerService-4-T1] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
-2019-03-26 11:24:45,929 WARN  [RpcServer#884] [main] [server side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
-2019-03-26 13:06:04,479 WARN  [RpcServer#305] [SOFA-RPC-ShutdownHook] Rpc Server stopped!

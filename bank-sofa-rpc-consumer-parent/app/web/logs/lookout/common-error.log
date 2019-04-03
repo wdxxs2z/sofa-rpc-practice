@@ -1,1 +1,0 @@
-2019-03-08 01:11:56.723 [localhost-startStop-1] WARN  com.alipay.lookout.client.DefaultLookoutClient - global registry is already set!Global registry can only reset one time! current is com.alipay.lookout.api.composite.CompositeRegistry@66696d48

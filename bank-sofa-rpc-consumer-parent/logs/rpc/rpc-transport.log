@@ -1,2 +1,0 @@
-2019-03-26 12:53:59,893 INFO  SOFA-CLI-DISCONN-cloud.provider.facade.CallerService-7-T1 com.alipay.sofa.rpc.transport.bolt.BoltClientTransport - Try disconnect client transport now. The connection is 192.168.43.142:58605 -> 192.168.43.142:12201.
-2019-03-26 13:06:04,482 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.transport.ClientTransportFactory - Shutdown all client transport now!

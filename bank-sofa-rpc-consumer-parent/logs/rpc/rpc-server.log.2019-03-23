@@ -1,2 +1,0 @@
-2019-03-23 15:20:29,287 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12202
-2019-03-23 18:23:02,974 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.server.ServerFactory - Destroy all server now!

@@ -1,4 +1,0 @@
-2019-03-23 15:20:24,202 WARN  [RemotingServer#56] [main] Initialize the server.
-2019-03-23 15:20:24,208 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12202
-2019-03-23 15:40:28,590 INFO  [Connection$1#308] [Rpc-netty-client-worker-1-thread-1] Close the connection to remote address=10.67.102.247:12201, result=true, cause=null
-2019-03-23 15:40:28,596 WARN  [DefaultConnectionManager#339] [Rpc-netty-client-worker-1-thread-1] Remove and close the last connection in ConnectionPool with poolKey 10.67.102.247:12201
