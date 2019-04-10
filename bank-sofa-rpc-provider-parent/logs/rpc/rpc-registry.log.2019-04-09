@@ -1,0 +1,45 @@
+2019-04-09 09:33:37,940 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to /Users/yuanshaopeng/localFileRegistry/localRegistry.reg
+2019-04-09 09:33:37,942 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00203: 注销 RPC 服务：服务名[cloud.provider.facade.CallerService:1.0@rest]	数量[1] 
+2019-04-09 09:33:37,942 INFO  Thread-5                         com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to /Users/yuanshaopeng/localFileRegistry/localRegistry.reg
+2019-04-09 09:33:37,943 INFO  Thread-5                         com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00203: 注销 RPC 服务：服务名[cloud.provider.facade.CallerService:1.0@DEFAULT]	数量[1] 
+2019-04-09 09:33:37,943 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to /Users/yuanshaopeng/localFileRegistry/localRegistry.reg
+2019-04-09 09:33:37,944 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00203: 注销 RPC 服务：服务名[cloud.provider.facade.CallerService:1.0@DEFAULT]	数量[1] 
+2019-04-09 09:33:37,944 INFO  Thread-5                         com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to /Users/yuanshaopeng/localFileRegistry/localRegistry.reg
+2019-04-09 09:33:37,945 INFO  Thread-5                         com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00203: 注销 RPC 服务：服务名[cloud.provider.facade.CallerService:1.0@rest]	数量[1] 
+2019-04-09 09:33:38,253 INFO  SOFA-LocalRegistry-Back-Load-7-T1 com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from /Users/yuanshaopeng/localFileRegistry/localRegistry.reg
+2019-04-09 13:39:17,281 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from /Users/yuanshaopeng/localFileRegistry/localRegistry.reg
+2019-04-09 13:39:17,286 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00205: RPC 服务[cloud.provider.facade.CallerService:1.0@DEFAULT]发布开始 
+2019-04-09 13:39:17,286 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00201: 发布 RPC 服务：服务名[cloud.provider.facade.CallerService:1.0@DEFAULT] 
+2019-04-09 13:39:17,297 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to /Users/yuanshaopeng/localFileRegistry/localRegistry.reg
+2019-04-09 13:39:17,297 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00206: RPC 服务[cloud.provider.facade.CallerService:1.0@DEFAULT]发布结束 
+2019-04-09 13:39:17,299 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00205: RPC 服务[cloud.provider.facade.CallerService:1.0@rest]发布开始 
+2019-04-09 13:39:17,299 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00201: 发布 RPC 服务：服务名[cloud.provider.facade.CallerService:1.0@rest] 
+2019-04-09 13:39:17,300 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to /Users/yuanshaopeng/localFileRegistry/localRegistry.reg
+2019-04-09 13:39:17,300 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00206: RPC 服务[cloud.provider.facade.CallerService:1.0@rest]发布结束 
+2019-04-09 13:52:54,397 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to /Users/yuanshaopeng/localFileRegistry/localRegistry.reg
+2019-04-09 13:52:54,398 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00203: 注销 RPC 服务：服务名[cloud.provider.facade.CallerService:1.0@rest]	数量[1] 
+2019-04-09 13:52:54,399 INFO  Thread-8                         com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to /Users/yuanshaopeng/localFileRegistry/localRegistry.reg
+2019-04-09 13:52:54,400 INFO  Thread-8                         com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00203: 注销 RPC 服务：服务名[cloud.provider.facade.CallerService:1.0@DEFAULT]	数量[1] 
+2019-04-09 13:52:54,400 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to /Users/yuanshaopeng/localFileRegistry/localRegistry.reg
+2019-04-09 13:52:54,401 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00203: 注销 RPC 服务：服务名[cloud.provider.facade.CallerService:1.0@DEFAULT]	数量[1] 
+2019-04-09 13:52:54,402 INFO  Thread-8                         com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to /Users/yuanshaopeng/localFileRegistry/localRegistry.reg
+2019-04-09 13:52:54,402 INFO  Thread-8                         com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00203: 注销 RPC 服务：服务名[cloud.provider.facade.CallerService:1.0@rest]	数量[1] 
+2019-04-09 13:52:55,958 INFO  SOFA-LocalRegistry-Back-Load-7-T1 com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from /Users/yuanshaopeng/localFileRegistry/localRegistry.reg
+2019-04-09 15:00:43,169 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from /Users/yuanshaopeng/localFileRegistry/localRegistry.reg
+2019-04-09 15:00:43,173 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00205: RPC 服务[cloud.provider.facade.CallerService:1.0@DEFAULT]发布开始 
+2019-04-09 15:00:43,173 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00201: 发布 RPC 服务：服务名[cloud.provider.facade.CallerService:1.0@DEFAULT] 
+2019-04-09 15:00:43,183 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to /Users/yuanshaopeng/localFileRegistry/localRegistry.reg
+2019-04-09 15:00:43,184 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00206: RPC 服务[cloud.provider.facade.CallerService:1.0@DEFAULT]发布结束 
+2019-04-09 15:00:43,184 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00205: RPC 服务[cloud.provider.facade.CallerService:1.0@rest]发布开始 
+2019-04-09 15:00:43,184 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00201: 发布 RPC 服务：服务名[cloud.provider.facade.CallerService:1.0@rest] 
+2019-04-09 15:00:43,185 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to /Users/yuanshaopeng/localFileRegistry/localRegistry.reg
+2019-04-09 15:00:43,186 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00206: RPC 服务[cloud.provider.facade.CallerService:1.0@rest]发布结束 
+2019-04-09 21:30:40,031 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to /Users/yuanshaopeng/localFileRegistry/localRegistry.reg
+2019-04-09 21:30:40,033 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00203: 注销 RPC 服务：服务名[cloud.provider.facade.CallerService:1.0@DEFAULT]	数量[1] 
+2019-04-09 21:30:40,034 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to /Users/yuanshaopeng/localFileRegistry/localRegistry.reg
+2019-04-09 21:30:40,035 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00203: 注销 RPC 服务：服务名[cloud.provider.facade.CallerService:1.0@rest]	数量[1] 
+2019-04-09 21:30:40,036 INFO  Thread-8                         com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to /Users/yuanshaopeng/localFileRegistry/localRegistry.reg
+2019-04-09 21:30:40,036 INFO  Thread-8                         com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00203: 注销 RPC 服务：服务名[cloud.provider.facade.CallerService:1.0@DEFAULT]	数量[1] 
+2019-04-09 21:30:40,042 INFO  Thread-8                         com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to /Users/yuanshaopeng/localFileRegistry/localRegistry.reg
+2019-04-09 21:30:40,043 INFO  Thread-8                         com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00203: 注销 RPC 服务：服务名[cloud.provider.facade.CallerService:1.0@rest]	数量[1] 
+2019-04-09 21:30:41,650 INFO  SOFA-LocalRegistry-Back-Load-7-T1 com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from /Users/yuanshaopeng/localFileRegistry/localRegistry.reg

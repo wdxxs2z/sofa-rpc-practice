@@ -1,0 +1,22 @@
+2019-04-10 11:39:26.537 [main] INFO  c.a.b.s.s.i.RestApplicationContextInitializer - Existed DSR com.alipay.instanceid = NL5BE0HMFUPJ
+2019-04-10 11:39:26.538 [main] INFO  c.a.b.s.s.i.RestApplicationContextInitializer - Existed DSR com.alipay.env = shared
+2019-04-10 11:39:26.539 [main] INFO  c.a.b.s.s.i.RestApplicationContextInitializer - Existed DSR com.antcloud.antvip.endpoint = 100.103.1.174
+2019-04-10 11:39:26.539 [main] INFO  c.a.b.s.s.i.RestApplicationContextInitializer - sofa rest starting!
+2019-04-10 11:39:43.917 [main] WARN  c.a.s.rest.spring.RestComponentsIndentifyProcessor - sofa rest can not resolve this bean class[you can ignore this warning]!
+2019-04-10 11:39:43.920 [main] WARN  c.a.s.rest.spring.RestComponentsIndentifyProcessor - sofa rest can not resolve this bean class[you can ignore this warning]!
+2019-04-10 11:39:43.920 [main] WARN  c.a.s.rest.spring.RestComponentsIndentifyProcessor - sofa rest can not resolve this bean class[you can ignore this warning]!
+2019-04-10 11:39:50.703 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap - register rest resource(name:cloud.provider.service.CallerServiceImpl)
+2019-04-10 11:39:50.796 [main] INFO  c.a.s.r.s.RestComponentsPropertyInjectProcessor - A rest resource is found . register it (callerService). 
+2019-04-10 11:40:02.247 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap - ClientConfig{connections=10, connectTimeout=-1, socketTimeout=-1, threadPoolSize=10, retries=0}
+2019-04-10 11:40:07.628 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap -  rest client started.
+2019-04-10 11:40:07.644 [main] INFO  c.a.sofa.rest.server.netty.SofaRestNettyServer - server connector works,Connector{port=8341, hostname='null',maxRequestSize =10485760, isKeepAlive=true, exposed=true, sslContext=null}. Configured min.pool.size=100,max.pool.size=200,queue.pool.size=500,prestart=false
+2019-04-10 11:40:12.693 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap -  rest server is started.
+2019-04-10 11:40:12.693 [main] INFO  c.a.sofa.rest.spring.support.RestComponentsLog - 
+====== rest resources and providers ======
+providers:
+  class org.jboss.resteasy.plugins.providers.ServerFormUrlEncodedProvider
+
+resources:
+  name:callerService,class cloud.provider.service.CallerServiceImpl
+
+2019-04-10 11:40:12.693 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap - sofa rest started.

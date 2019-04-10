@@ -1,0 +1,13 @@
+2019-04-08 19:06:33,799 INFO  main                             - sofa rpc run.mode = DEV
+2019-04-08 19:06:33,799 INFO  main                             - PID:58418 sofa rpc starting!
+2019-04-08 19:06:33,800 INFO  main                             - the run.mode is DEV
+2019-04-08 19:06:57,774 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.4.7_20181025093119, PID is:58418
+2019-04-08 19:06:57,812 INFO  main                             - Install Module: fault-tolerance
+2019-04-08 19:06:57,842 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-04-08 19:06:57,848 INFO  main                             - Extension of extensible com.alipay.sofa.rpc.tracer.Tracer with alias sofaTracer: class com.alipay.sofa.rpc.tracer.log.sofatracer.EnterpriseRpcSofaTracer has been loaded, ignore origin class com.alipay.sofa.rpc.tracer.sofatracer.RpcSofaTracer
+2019-04-08 19:06:57,859 INFO  main                             - The module lookout does not need to be loaded.
+2019-04-08 19:06:57,859 INFO  main                             - Install Module: sofaTracer
+2019-04-08 19:06:57,948 INFO  main                             - Export provider config : cloud.provider.facade.CallerService::bolt with bean id callerService
+2019-04-08 19:06:58,009 INFO  main                             - Export provider config : cloud.provider.facade.CallerService::rest with bean id callerService
+2019-04-08 19:07:04,447 INFO  main                             - transmit will not start with config is null
+2019-04-08 19:07:04,532 INFO  main                             - Extension of extensible com.alipay.sofa.rpc.registry.Registry with alias mesh: class com.alipay.sofa.rpc.registry.mesh.EnterpriseMeshRegistry has been loaded, ignore origin class com.alipay.sofa.rpc.registry.mesh.MeshRegistry

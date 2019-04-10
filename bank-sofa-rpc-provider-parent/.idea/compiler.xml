@@ -7,19 +7,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="bank-sofa-provider-facade" />
+        <module name="bank-sofa-provider-gateway" />
         <module name="bank-sofa-provider-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bank-sofa-provider-facade" target="1.8" />
+      <module name="bank-sofa-provider-gateway" target="1.8" />
       <module name="bank-sofa-provider-parent" target="1.8" />
       <module name="bank-sofa-provider-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="bank-sofa-provider-facade" options="" />
-      <module name="bank-sofa-provider-service" options="" />
+      <module name="bank-sofa-provider-facade" options="-parameters" />
+      <module name="bank-sofa-provider-gateway" options="-parameters" />
+      <module name="bank-sofa-provider-service" options="-parameters" />
     </option>
   </component>
 </project>

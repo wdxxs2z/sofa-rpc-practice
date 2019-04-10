@@ -17,11 +17,14 @@ import com.alipay.common.tracer.core.context.trace.SofaTraceContext;
 import com.alipay.common.tracer.core.holder.SofaTraceContextHolder;
 import com.alipay.common.tracer.core.span.LogData;
 import com.alipay.common.tracer.core.span.SofaTracerSpan;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Lazy;
 
 public class CallerServiceImpl implements cloud.provider.facade.CallerService {
 
 	@Autowired
-	private DataSource simpleDataSource;
+	@Qualifier(value = "smartDataSource")
+	private DataSource smartDataSource;
 
 	private static final String TEMPLATE = "Hello, %s!";
 
@@ -45,7 +48,7 @@ public class CallerServiceImpl implements cloud.provider.facade.CallerService {
 	public Map<String, Object> create() {
 		Map<String, Object> resultMap = new HashMap<String, Object>();
 		try {
-			Connection cn = simpleDataSource.getConnection();
+			Connection cn = smartDataSource.getConnection();
 			Statement st = cn.createStatement();
 			st.execute("DROP TABLE IF EXISTS test");
 			st.execute("create table test(ID INT PRIMARY KEY, NAME VARCHAR(255))");

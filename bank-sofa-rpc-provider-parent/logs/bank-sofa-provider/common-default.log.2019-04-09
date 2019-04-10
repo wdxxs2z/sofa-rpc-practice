@@ -1,0 +1,259 @@
+2019-04-09 09:33:37.935 [Thread-5] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@54d9d12d: startup date [Mon Apr 08 19:06:43 CST 2019]; root of context hierarchy
+2019-04-09 09:33:42.411 [Thread-5] INFO  o.s.context.support.DefaultLifecycleProcessor - Stopping beans in phase 0
+2019-04-09 09:33:42.414 [Thread-5] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-04-09 09:33:42.414 [Thread-5] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter - Unregistering JMX-exposed beans
+2019-04-09 09:33:42.415 [Thread-5] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-04-09 09:33:42.415 [Thread-5] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-04-09 09:33:42.826 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-04-09 13:38:41.328 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual logging.path is [ ./logs ]
+2019-04-09 13:38:41.337 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.infra Logback ]
+2019-04-09 13:38:41.360 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.mw.access in Java -D argument, put value LbdFKpOHKoIbVsZzcY into System
+2019-04-09 13:38:41.361 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.antvip.endpoint in Java -D argument, put value 100.103.1.174 into System
+2019-04-09 13:38:41.361 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.mw.secret in Java -D argument, put value V5WLSXPcHciRbryO8yGbBnIZR6hAzKTd into System
+2019-04-09 13:38:41.362 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.alipay.env in Java -D argument, put value shared into System
+2019-04-09 13:38:41.362 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.alipay.instanceid in Java -D argument, put value NL5BE0HMFUPJ into System
+2019-04-09 13:38:41.372 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.rest Logback ]
+2019-04-09 13:38:41.410 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.rpc Logback ]
+2019-04-09 13:38:46.510 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual logging.path is [ ./logs ]
+2019-04-09 13:38:46.512 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.runtime Logback ]
+2019-04-09 13:38:46.528 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual logging.path is [ ./logs ]
+2019-04-09 13:38:46.529 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.healthcheck Logback ]
+2019-04-09 13:38:56.617 [main] INFO  cloud.provider.SOFABootSpringApplication - Starting SOFABootSpringApplication on ali-180366.local with PID 64762 (/Users/yuanshaopeng/Project/sofa-practice-code/sofa-rpc/bank-sofa-rpc-provider-parent/bank-sofa-provider-service/target/classes started by yuanshaopeng in /Users/yuanshaopeng/Project/sofa-practice-code/sofa-rpc/bank-sofa-rpc-provider-parent)
+2019-04-09 13:38:56.618 [main] DEBUG cloud.provider.SOFABootSpringApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-04-09 13:38:56.618 [main] INFO  cloud.provider.SOFABootSpringApplication - No active profile set, falling back to default profiles: default
+2019-04-09 13:38:56.675 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2362f559: startup date [Tue Apr 09 13:38:56 CST 2019]; root of context hierarchy
+2019-04-09 13:38:57.176 [main] INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [/Users/yuanshaopeng/Project/sofa-practice-code/sofa-rpc/bank-sofa-rpc-provider-parent/bank-sofa-provider-service/target/classes/META-INF/xingye-sofa-rpc-provider/bank-sofa-provider-service.xml]
+2019-04-09 13:38:58.916 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-04-09 13:38:58.941 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'simple-sofa-rest-conf-for-spring' of type [com.alipay.sofa.rest.spring.config.SimpleSpringSofaRestConfig$$EnhancerBySpringCGLIB$$a3b9c496] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-09 13:38:59.449 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-04-09 13:38:59.474 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-09 13:38:59.494 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-09 13:38:59.494 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-04-09 13:38:59.508 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yuanshaopeng/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-04-09 13:38:59.714 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-09 13:38:59.715 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3040 ms
+2019-04-09 13:39:00.456 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-09 13:39:00.456 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'SpringMvcSofaTracerFilter' to urls: [/*]
+2019-04-09 13:39:00.457 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-09 13:39:00.457 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-09 13:39:00.457 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-09 13:39:00.457 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+2019-04-09 13:39:00.457 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2019-04-09 13:39:00.457 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-04-09 13:39:00.533 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.rpc.boot Logback ]
+2019-04-09 13:39:05.745 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-04-09 13:39:05.784 [main] INFO  o.j.r.p.v.AbstractValidatorContextResolver - Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+2019-04-09 13:39:16.305 [main] INFO  o.j.r.p.v.AbstractValidatorContextResolver - Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+2019-04-09 13:39:16.374 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-09 13:39:16.576 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2362f559: startup date [Tue Apr 09 13:38:56 CST 2019]; root of context hierarchy
+2019-04-09 13:39:16.669 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-09 13:39:16.671 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-09 13:39:16.703 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-09 13:39:16.703 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-09 13:39:17.116 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 4 endpoint(s) beneath base path '/actuator'
+2019-04-09 13:39:17.129 [main] INFO  o.s.b.a.e.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/readiness],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-09 13:39:17.129 [main] INFO  o.s.b.a.e.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/versions],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-09 13:39:17.130 [main] INFO  o.s.b.a.e.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-09 13:39:17.130 [main] INFO  o.s.b.a.e.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-09 13:39:17.131 [main] INFO  o.s.b.a.e.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-09 13:39:17.190 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-04-09 13:39:17.191 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'originDataSource' has been autodetected for JMX exposure
+2019-04-09 13:39:17.197 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'originDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=originDataSource,type=DruidDataSource]
+2019-04-09 13:39:17.218 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.remoting Logback ]
+2019-04-09 13:39:17.336 [main] WARN  com.alipay.sofa.cluster.core.ClusterEngine - No ClusterProvider found!
+2019-04-09 13:39:17.341 [main] WARN  com.alipay.sofa.cluster.core.ClusterEngine - No sofa rest cluster registryService provider!
+2019-04-09 13:39:27.742 [main] WARN  com.alipay.sofa.cluster.core.ClusterEngine - No sofa rest cluster registryService provider!
+2019-04-09 13:39:27.752 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-09 13:39:27.752 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-09 13:39:27.772 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-09 13:39:27.777 [main] INFO  cloud.provider.SOFABootSpringApplication - Started SOFABootSpringApplication in 62.223 seconds (JVM running for 68.376)
+2019-04-09 13:52:54.395 [Thread-8] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2362f559: startup date [Tue Apr 09 13:38:56 CST 2019]; root of context hierarchy
+2019-04-09 13:52:58.862 [Thread-8] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-04-09 13:52:58.863 [Thread-8] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-04-09 13:52:59.355 [Thread-8] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-04-09 15:00:07.980 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual logging.path is [ ./logs ]
+2019-04-09 15:00:07.987 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.infra Logback ]
+2019-04-09 15:00:08.001 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.mw.access in Java -D argument, put value LbdFKpOHKoIbVsZzcY into System
+2019-04-09 15:00:08.002 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.antvip.endpoint in Java -D argument, put value 100.103.1.174 into System
+2019-04-09 15:00:08.002 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.mw.secret in Java -D argument, put value V5WLSXPcHciRbryO8yGbBnIZR6hAzKTd into System
+2019-04-09 15:00:08.003 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.alipay.env in Java -D argument, put value shared into System
+2019-04-09 15:00:08.003 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.alipay.instanceid in Java -D argument, put value NL5BE0HMFUPJ into System
+2019-04-09 15:00:08.010 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.rest Logback ]
+2019-04-09 15:00:08.036 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.rpc Logback ]
+2019-04-09 15:00:13.102 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual logging.path is [ ./logs ]
+2019-04-09 15:00:13.103 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.runtime Logback ]
+2019-04-09 15:00:13.119 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual logging.path is [ ./logs ]
+2019-04-09 15:00:13.120 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.healthcheck Logback ]
+2019-04-09 15:00:23.200 [main] INFO  cloud.provider.SOFABootSpringApplication - Starting SOFABootSpringApplication on ali-180366.local with PID 66116 (/Users/yuanshaopeng/Project/sofa-practice-code/sofa-rpc/bank-sofa-rpc-provider-parent/bank-sofa-provider-service/target/classes started by yuanshaopeng in /Users/yuanshaopeng/Project/sofa-practice-code/sofa-rpc/bank-sofa-rpc-provider-parent)
+2019-04-09 15:00:23.200 [main] DEBUG cloud.provider.SOFABootSpringApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-04-09 15:00:23.201 [main] INFO  cloud.provider.SOFABootSpringApplication - No active profile set, falling back to default profiles: default
+2019-04-09 15:00:23.246 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41a2befb: startup date [Tue Apr 09 15:00:23 CST 2019]; root of context hierarchy
+2019-04-09 15:00:23.734 [main] INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [/Users/yuanshaopeng/Project/sofa-practice-code/sofa-rpc/bank-sofa-rpc-provider-parent/bank-sofa-provider-service/target/classes/META-INF/xingye-sofa-rpc-provider/bank-sofa-provider-service.xml]
+2019-04-09 15:00:25.205 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-04-09 15:00:25.230 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'simple-sofa-rest-conf-for-spring' of type [com.alipay.sofa.rest.spring.config.SimpleSpringSofaRestConfig$$EnhancerBySpringCGLIB$$ac5f0fea] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-09 15:00:25.595 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-04-09 15:00:25.616 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-09 15:00:25.633 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-09 15:00:25.633 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-04-09 15:00:25.646 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yuanshaopeng/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-04-09 15:00:25.818 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-09 15:00:25.818 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2572 ms
+2019-04-09 15:00:26.546 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-09 15:00:26.546 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'SpringMvcSofaTracerFilter' to urls: [/*]
+2019-04-09 15:00:26.546 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-09 15:00:26.546 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-09 15:00:26.547 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-09 15:00:26.547 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+2019-04-09 15:00:26.547 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2019-04-09 15:00:26.547 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-04-09 15:00:26.616 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.rpc.boot Logback ]
+2019-04-09 15:00:31.798 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-04-09 15:00:31.836 [main] INFO  o.j.r.p.v.AbstractValidatorContextResolver - Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+2019-04-09 15:00:42.231 [main] INFO  o.j.r.p.v.AbstractValidatorContextResolver - Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+2019-04-09 15:00:42.325 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-09 15:00:42.513 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41a2befb: startup date [Tue Apr 09 15:00:23 CST 2019]; root of context hierarchy
+2019-04-09 15:00:42.596 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-09 15:00:42.597 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-09 15:00:42.628 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-09 15:00:42.628 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-09 15:00:43.020 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 4 endpoint(s) beneath base path '/actuator'
+2019-04-09 15:00:43.032 [main] INFO  o.s.b.a.e.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/readiness],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-09 15:00:43.033 [main] INFO  o.s.b.a.e.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/versions],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-09 15:00:43.033 [main] INFO  o.s.b.a.e.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-09 15:00:43.034 [main] INFO  o.s.b.a.e.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-09 15:00:43.034 [main] INFO  o.s.b.a.e.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-09 15:00:43.088 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-04-09 15:00:43.089 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'originDataSource' has been autodetected for JMX exposure
+2019-04-09 15:00:43.095 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'originDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=originDataSource,type=DruidDataSource]
+2019-04-09 15:00:43.112 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.remoting Logback ]
+2019-04-09 15:00:43.213 [main] WARN  com.alipay.sofa.cluster.core.ClusterEngine - No ClusterProvider found!
+2019-04-09 15:00:43.215 [main] WARN  com.alipay.sofa.cluster.core.ClusterEngine - No sofa rest cluster registryService provider!
+2019-04-09 15:00:53.583 [main] WARN  com.alipay.sofa.cluster.core.ClusterEngine - No sofa rest cluster registryService provider!
+2019-04-09 15:00:53.592 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-09 15:00:53.593 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-09 15:00:53.610 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-09 15:00:53.615 [main] INFO  cloud.provider.SOFABootSpringApplication - Started SOFABootSpringApplication in 61.259 seconds (JVM running for 66.975)
+2019-04-09 15:32:38.885 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-09 15:32:38.885 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-04-09 15:32:38.907 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2019-04-09 16:36:47.680 [SOFA-SEV-REST-BIZ-8341-6-T4] ERROR org.jboss.resteasy.core.ExceptionHandler - failed to execute
+javax.ws.rs.NotFoundException: Could not find resource for full path: http://127.0.0.1:8341/order/webapi/message
+	at org.jboss.resteasy.core.registry.ClassNode.match(ClassNode.java:73)
+	at org.jboss.resteasy.core.registry.RootClassNode.match(RootClassNode.java:48)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.getResourceInvoker(ResourceMethodRegistry.java:444)
+	at com.alipay.sofa.rpc.server.rest.SofaResourceMethodRegistry.getResourceInvoker(SofaResourceMethodRegistry.java:57)
+	at org.jboss.resteasy.core.SynchronousDispatcher.getInvoker(SynchronousDispatcher.java:255)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:192)
+	at org.jboss.resteasy.plugins.server.netty.RequestDispatcher.service(RequestDispatcher.java:83)
+	at com.alipay.sofa.rpc.server.rest.SofaRestRequestHandler.channelRead0(SofaRestRequestHandler.java:100)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.access$600(AbstractChannelHandlerContext.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext$7.run(AbstractChannelHandlerContext.java:353)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:465)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-09 16:39:43.342 [SOFA-SEV-REST-BIZ-8341-6-T5] ERROR org.jboss.resteasy.core.ExceptionHandler - failed to execute
+javax.ws.rs.NotFoundException: Could not find resource for full path: http://127.0.0.1:8341/order/webapi/message
+	at org.jboss.resteasy.core.registry.ClassNode.match(ClassNode.java:73)
+	at org.jboss.resteasy.core.registry.RootClassNode.match(RootClassNode.java:48)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.getResourceInvoker(ResourceMethodRegistry.java:444)
+	at com.alipay.sofa.rpc.server.rest.SofaResourceMethodRegistry.getResourceInvoker(SofaResourceMethodRegistry.java:57)
+	at org.jboss.resteasy.core.SynchronousDispatcher.getInvoker(SynchronousDispatcher.java:255)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:192)
+	at org.jboss.resteasy.plugins.server.netty.RequestDispatcher.service(RequestDispatcher.java:83)
+	at com.alipay.sofa.rpc.server.rest.SofaRestRequestHandler.channelRead0(SofaRestRequestHandler.java:100)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.access$600(AbstractChannelHandlerContext.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext$7.run(AbstractChannelHandlerContext.java:353)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:465)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-09 16:43:17.177 [SOFA-SEV-REST-BIZ-8341-6-T7] ERROR org.jboss.resteasy.core.ExceptionHandler - failed to execute
+javax.ws.rs.NotFoundException: Could not find resource for full path: http://127.0.0.1:8341/order/webapi/message
+	at org.jboss.resteasy.core.registry.ClassNode.match(ClassNode.java:73)
+	at org.jboss.resteasy.core.registry.RootClassNode.match(RootClassNode.java:48)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.getResourceInvoker(ResourceMethodRegistry.java:444)
+	at com.alipay.sofa.rpc.server.rest.SofaResourceMethodRegistry.getResourceInvoker(SofaResourceMethodRegistry.java:57)
+	at org.jboss.resteasy.core.SynchronousDispatcher.getInvoker(SynchronousDispatcher.java:255)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:192)
+	at org.jboss.resteasy.plugins.server.netty.RequestDispatcher.service(RequestDispatcher.java:83)
+	at com.alipay.sofa.rpc.server.rest.SofaRestRequestHandler.channelRead0(SofaRestRequestHandler.java:100)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.access$600(AbstractChannelHandlerContext.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext$7.run(AbstractChannelHandlerContext.java:353)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:465)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-09 17:46:31.343 [SOFA-SEV-REST-BIZ-8341-6-T9] ERROR org.jboss.resteasy.core.ExceptionHandler - failed to execute
+javax.ws.rs.NotFoundException: Could not find resource for full path: http://127.0.0.1:8341/webapi
+	at org.jboss.resteasy.core.registry.SegmentNode.match(SegmentNode.java:112)
+	at org.jboss.resteasy.core.registry.RootNode.match(RootNode.java:43)
+	at org.jboss.resteasy.core.registry.RootClassNode.match(RootClassNode.java:48)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.getResourceInvoker(ResourceMethodRegistry.java:444)
+	at com.alipay.sofa.rpc.server.rest.SofaResourceMethodRegistry.getResourceInvoker(SofaResourceMethodRegistry.java:57)
+	at org.jboss.resteasy.core.SynchronousDispatcher.getInvoker(SynchronousDispatcher.java:255)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:192)
+	at org.jboss.resteasy.plugins.server.netty.RequestDispatcher.service(RequestDispatcher.java:83)
+	at com.alipay.sofa.rpc.server.rest.SofaRestRequestHandler.channelRead0(SofaRestRequestHandler.java:100)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.access$600(AbstractChannelHandlerContext.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext$7.run(AbstractChannelHandlerContext.java:353)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:465)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-09 17:47:37.519 [SOFA-SEV-REST-BIZ-8341-6-T10] ERROR org.jboss.resteasy.core.ExceptionHandler - failed to execute
+javax.ws.rs.NotFoundException: Could not find resource for full path: http://127.0.0.1:8341/webapi
+	at org.jboss.resteasy.core.registry.SegmentNode.match(SegmentNode.java:112)
+	at org.jboss.resteasy.core.registry.RootNode.match(RootNode.java:43)
+	at org.jboss.resteasy.core.registry.RootClassNode.match(RootClassNode.java:48)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.getResourceInvoker(ResourceMethodRegistry.java:444)
+	at com.alipay.sofa.rpc.server.rest.SofaResourceMethodRegistry.getResourceInvoker(SofaResourceMethodRegistry.java:57)
+	at org.jboss.resteasy.core.SynchronousDispatcher.getInvoker(SynchronousDispatcher.java:255)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:192)
+	at org.jboss.resteasy.plugins.server.netty.RequestDispatcher.service(RequestDispatcher.java:83)
+	at com.alipay.sofa.rpc.server.rest.SofaRestRequestHandler.channelRead0(SofaRestRequestHandler.java:100)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.access$600(AbstractChannelHandlerContext.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext$7.run(AbstractChannelHandlerContext.java:353)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:465)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-09 17:47:42.366 [SOFA-SEV-REST-BIZ-8341-6-T11] ERROR org.jboss.resteasy.core.ExceptionHandler - failed to execute
+javax.ws.rs.NotFoundException: Could not find resource for full path: http://127.0.0.1:8341/webapi
+	at org.jboss.resteasy.core.registry.SegmentNode.match(SegmentNode.java:112)
+	at org.jboss.resteasy.core.registry.RootNode.match(RootNode.java:43)
+	at org.jboss.resteasy.core.registry.RootClassNode.match(RootClassNode.java:48)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.getResourceInvoker(ResourceMethodRegistry.java:444)
+	at com.alipay.sofa.rpc.server.rest.SofaResourceMethodRegistry.getResourceInvoker(SofaResourceMethodRegistry.java:57)
+	at org.jboss.resteasy.core.SynchronousDispatcher.getInvoker(SynchronousDispatcher.java:255)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:192)
+	at org.jboss.resteasy.plugins.server.netty.RequestDispatcher.service(RequestDispatcher.java:83)
+	at com.alipay.sofa.rpc.server.rest.SofaRestRequestHandler.channelRead0(SofaRestRequestHandler.java:100)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.access$600(AbstractChannelHandlerContext.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext$7.run(AbstractChannelHandlerContext.java:353)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:465)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-09 21:30:40.026 [Thread-8] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41a2befb: startup date [Tue Apr 09 15:00:23 CST 2019]; root of context hierarchy
+2019-04-09 21:30:44.491 [Thread-8] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-04-09 21:30:44.492 [Thread-8] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-04-09 21:30:45.354 [Thread-8] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

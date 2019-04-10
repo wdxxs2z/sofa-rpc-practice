@@ -4,22 +4,34 @@
        xmlns:sofa="http://schema.alipay.com/sofa/schema/slite"
        xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
         http://schema.alipay.com/sofa/schema/slite http://schema.alipay.com/sofa/slite.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-	<!-- dataSource pool -->
-    <bean id="simpleDataSource" class="com.alibaba.druid.pool.DruidDataSource" destroy-method="close" primary="true">
-        <property name="driverClassName" value="${spring.datasource.driver-class-name}"/>
-        <property name="url" value="${spring.datasource.url}"/>
-        <property name="username" value="${spring.datasource.username}"/>
-        <property name="password" value="${spring.datasource.password}"/>
+    <!-- SOFA data source tracer START parent="originDataSource"-->
+    <bean id="clientTracer" class="com.alipay.sofa.extds.tracer.DefaultClientTracer"/>
+
+    <bean id="smartDataSource" class="com.alipay.sofa.extds.SmartDataSource" init-method="init" primary="true">
+        <constructor-arg name="delegate" ref="originDataSource" />
+        <property name="appName" value="${spring.application.name}"/>
+        <property name="database" value="${spring.self.datasource.database}"/>
+        <property name="dbType" value="${spring.self.datasource.dbType}"/>
+        <property name="clientTracer" ref="clientTracer"/>
     </bean>
 
-    <bean id="callerService" class="cloud.provider.service.CallerServiceImpl"/>
+    <!-- destroy-method="close" init-method="init" -->
+    <bean id="originDataSource" class="com.alibaba.druid.pool.DruidDataSource" destroy-method="close" init-method="init">
+        <property name="driverClassName" value="${spring.self.datasource.driver-class-name}" />
+        <property name="url" value="${spring.self.datasource.url}" />
+        <property name="username" value="${spring.self.datasource.username}" />
+        <property name="password" value="${spring.self.datasource.password}" />
+    </bean>
+
+    <!-- SOFA data source tracer END-->
+
+    <bean id="callerService" class="cloud.provider.service.CallerServiceImpl" />
 
     <sofa:service interface="cloud.provider.facade.CallerService" ref="callerService" >
         <sofa:binding.bolt/>
         <sofa:binding.rest/>
     </sofa:service>
-
 </beans>

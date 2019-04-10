@@ -1,0 +1,41 @@
+spring:
+  application:
+    name: provider-gateway
+  cloud:
+    gateway:
+      enabled: true
+      locator:
+        enabled: true
+      routes:
+      - id: hostroute
+        uri: http://127.0.0.1:8341
+        predicates:
+        - Path=/order/webapi/**
+        filters:
+          - StripPrefix=1
+server:
+  port: 8888
+logging:
+  level:
+    root: INFO
+  path: ./logs/gateway/gateway.log
+
+# SOFA CONFIG START
+com:
+  alipay:
+    env: shared
+    instanceid: xxxx
+    sofa:
+      rpc:
+        registry:
+          address: xxx
+  antcloud:
+    antvip:
+      endpoint: xxx
+    mw:
+      access: xxx
+      secret: xxx
+run:
+  mode: DEV
+
+# SOFA CONFIG END

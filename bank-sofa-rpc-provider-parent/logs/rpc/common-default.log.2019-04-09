@@ -1,0 +1,48 @@
+2019-04-09 09:33:37,935 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2019-04-09 09:33:37,939 INFO  Thread-5                         - Unexport provider config : cloud.provider.facade.CallerService::bolt with bean id callerService
+2019-04-09 09:33:37,943 INFO  Thread-5                         - Unexport provider config : cloud.provider.facade.CallerService::rest with bean id callerService
+2019-04-09 09:33:42,416 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2019-04-09 09:33:42,416 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2019-04-09 09:33:42,416 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2019-04-09 09:33:42,417 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2019-04-09 13:38:41,466 INFO  main                             - sofa rpc run.mode = DEV
+2019-04-09 13:38:41,468 INFO  main                             - PID:64762 sofa rpc starting!
+2019-04-09 13:38:41,469 INFO  main                             - the run.mode is DEV
+2019-04-09 13:39:10,950 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.4.7_20181025093119, PID is:64762
+2019-04-09 13:39:10,970 INFO  main                             - Install Module: fault-tolerance
+2019-04-09 13:39:10,985 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-04-09 13:39:10,988 INFO  main                             - Extension of extensible com.alipay.sofa.rpc.tracer.Tracer with alias sofaTracer: class com.alipay.sofa.rpc.tracer.log.sofatracer.EnterpriseRpcSofaTracer has been loaded, ignore origin class com.alipay.sofa.rpc.tracer.sofatracer.RpcSofaTracer
+2019-04-09 13:39:10,996 INFO  main                             - The module lookout does not need to be loaded.
+2019-04-09 13:39:10,997 INFO  main                             - Install Module: sofaTracer
+2019-04-09 13:39:11,033 INFO  main                             - Export provider config : cloud.provider.facade.CallerService::bolt with bean id callerService
+2019-04-09 13:39:11,069 INFO  main                             - Export provider config : cloud.provider.facade.CallerService::rest with bean id callerService
+2019-04-09 13:39:17,211 INFO  main                             - transmit will not start with config is null
+2019-04-09 13:39:17,274 INFO  main                             - Extension of extensible com.alipay.sofa.rpc.registry.Registry with alias mesh: class com.alipay.sofa.rpc.registry.mesh.EnterpriseMeshRegistry has been loaded, ignore origin class com.alipay.sofa.rpc.registry.mesh.MeshRegistry
+2019-04-09 13:52:54,394 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2019-04-09 13:52:54,396 INFO  Thread-8                         - Unexport provider config : cloud.provider.facade.CallerService::bolt with bean id callerService
+2019-04-09 13:52:54,400 INFO  Thread-8                         - Unexport provider config : cloud.provider.facade.CallerService::rest with bean id callerService
+2019-04-09 13:52:58,864 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2019-04-09 13:52:58,864 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2019-04-09 13:52:58,864 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2019-04-09 13:52:58,865 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2019-04-09 15:00:08,059 INFO  main                             - sofa rpc run.mode = DEV
+2019-04-09 15:00:08,060 INFO  main                             - PID:66116 sofa rpc starting!
+2019-04-09 15:00:08,061 INFO  main                             - the run.mode is DEV
+2019-04-09 15:00:36,952 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.4.7_20181025093119, PID is:66116
+2019-04-09 15:00:36,964 INFO  main                             - Install Module: fault-tolerance
+2019-04-09 15:00:36,974 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-04-09 15:00:36,976 INFO  main                             - Extension of extensible com.alipay.sofa.rpc.tracer.Tracer with alias sofaTracer: class com.alipay.sofa.rpc.tracer.log.sofatracer.EnterpriseRpcSofaTracer has been loaded, ignore origin class com.alipay.sofa.rpc.tracer.sofatracer.RpcSofaTracer
+2019-04-09 15:00:36,982 INFO  main                             - The module lookout does not need to be loaded.
+2019-04-09 15:00:36,982 INFO  main                             - Install Module: sofaTracer
+2019-04-09 15:00:37,018 INFO  main                             - Export provider config : cloud.provider.facade.CallerService::bolt with bean id callerService
+2019-04-09 15:00:37,047 INFO  main                             - Export provider config : cloud.provider.facade.CallerService::rest with bean id callerService
+2019-04-09 15:00:43,107 INFO  main                             - transmit will not start with config is null
+2019-04-09 15:00:43,164 INFO  main                             - Extension of extensible com.alipay.sofa.rpc.registry.Registry with alias mesh: class com.alipay.sofa.rpc.registry.mesh.EnterpriseMeshRegistry has been loaded, ignore origin class com.alipay.sofa.rpc.registry.mesh.MeshRegistry
+2019-04-09 15:32:18,151 INFO  SOFA-SEV-REST-BIZ-8341-6-T2      - Load tracer impl success: sofaTracer, com.alipay.sofa.rpc.tracer.log.sofatracer.EnterpriseRpcSofaTracer@2457ba2d
+2019-04-09 21:30:40,026 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2019-04-09 21:30:40,034 INFO  Thread-8                         - Unexport provider config : cloud.provider.facade.CallerService::bolt with bean id callerService
+2019-04-09 21:30:40,041 INFO  Thread-8                         - Unexport provider config : cloud.provider.facade.CallerService::rest with bean id callerService
+2019-04-09 21:30:44,484 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2019-04-09 21:30:44,484 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2019-04-09 21:30:44,484 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2019-04-09 21:30:44,485 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...

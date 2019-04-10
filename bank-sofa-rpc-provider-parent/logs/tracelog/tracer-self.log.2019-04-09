@@ -1,0 +1,211 @@
+2019-04-09 13:39:05.632[WARN]  sql-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-04-09 13:39:10.991[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-04-09 13:39:10.993[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-04-09 13:39:10.993[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-04-09 13:39:10.993[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-04-09 15:00:31.702[WARN]  sql-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-04-09 15:00:36.978[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-04-09 15:00:36.980[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-04-09 15:00:36.980[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-04-09 15:00:36.980[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-04-09 15:32:18.155[ERROR] SpanContext created error when server received and root SpanContext created.
+2019-04-09 15:32:18.173[WARN]  rest-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-04-09 15:32:18.174[WARN]  rest-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-04-09 15:32:18.175[ERROR] []Middleware server received and restart root span
+java.lang.ClassCastException: com.alipay.common.tracer.core.span.SofaTracerSpan cannot be cast to com.alipay.common.tracer.context.AbstractLogContext
+	at com.alipay.common.tracer.compatible.AbstractAlipayTracer.serverReceive(AbstractAlipayTracer.java:168)
+	at com.alipay.common.tracer.tracer.SofaRestTracer.requestReceive(SofaRestTracer.java:151)
+	at com.alipay.sofa.rest.common.tracer.server.TraceRequestFilter.filter(TraceRequestFilter.java:41)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:264)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:250)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:237)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:377)
+	at com.alipay.sofa.rpc.server.rest.SofaSynchronousDispatcher.invoke(SofaSynchronousDispatcher.java:49)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:200)
+	at org.jboss.resteasy.plugins.server.netty.RequestDispatcher.service(RequestDispatcher.java:83)
+	at com.alipay.sofa.rpc.server.rest.SofaRestRequestHandler.channelRead0(SofaRestRequestHandler.java:100)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.access$600(AbstractChannelHandlerContext.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext$7.run(AbstractChannelHandlerContext.java:353)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:465)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-09 15:32:38.919[WARN]  spring-mvc-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-04-09 16:36:47.676[ERROR] SpanContext created error when server received and root SpanContext created.
+2019-04-09 16:39:43.341[ERROR] SpanContext created error when server received and root SpanContext created.
+2019-04-09 16:40:56.979[ERROR] SpanContext created error when server received and root SpanContext created.
+2019-04-09 16:40:56.979[ERROR] []Middleware server received and restart root span
+java.lang.ClassCastException: com.alipay.common.tracer.core.span.SofaTracerSpan cannot be cast to com.alipay.common.tracer.context.AbstractLogContext
+	at com.alipay.common.tracer.compatible.AbstractAlipayTracer.serverReceive(AbstractAlipayTracer.java:168)
+	at com.alipay.common.tracer.tracer.SofaRestTracer.requestReceive(SofaRestTracer.java:151)
+	at com.alipay.sofa.rest.common.tracer.server.TraceRequestFilter.filter(TraceRequestFilter.java:41)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:264)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:250)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:237)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:377)
+	at com.alipay.sofa.rpc.server.rest.SofaSynchronousDispatcher.invoke(SofaSynchronousDispatcher.java:49)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:200)
+	at org.jboss.resteasy.plugins.server.netty.RequestDispatcher.service(RequestDispatcher.java:83)
+	at com.alipay.sofa.rpc.server.rest.SofaRestRequestHandler.channelRead0(SofaRestRequestHandler.java:100)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.access$600(AbstractChannelHandlerContext.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext$7.run(AbstractChannelHandlerContext.java:353)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:465)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-09 16:43:17.176[ERROR] SpanContext created error when server received and root SpanContext created.
+2019-04-09 16:47:57.144[ERROR] SpanContext created error when server received and root SpanContext created.
+2019-04-09 16:47:57.145[ERROR] []Middleware server received and restart root span
+java.lang.ClassCastException: com.alipay.common.tracer.core.span.SofaTracerSpan cannot be cast to com.alipay.common.tracer.context.AbstractLogContext
+	at com.alipay.common.tracer.compatible.AbstractAlipayTracer.serverReceive(AbstractAlipayTracer.java:168)
+	at com.alipay.common.tracer.tracer.SofaRestTracer.requestReceive(SofaRestTracer.java:151)
+	at com.alipay.sofa.rest.common.tracer.server.TraceRequestFilter.filter(TraceRequestFilter.java:41)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:264)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:250)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:237)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:377)
+	at com.alipay.sofa.rpc.server.rest.SofaSynchronousDispatcher.invoke(SofaSynchronousDispatcher.java:49)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:200)
+	at org.jboss.resteasy.plugins.server.netty.RequestDispatcher.service(RequestDispatcher.java:83)
+	at com.alipay.sofa.rpc.server.rest.SofaRestRequestHandler.channelRead0(SofaRestRequestHandler.java:100)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.access$600(AbstractChannelHandlerContext.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext$7.run(AbstractChannelHandlerContext.java:353)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:465)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-09 17:46:31.342[ERROR] SpanContext created error when server received and root SpanContext created.
+2019-04-09 17:47:37.518[ERROR] SpanContext created error when server received and root SpanContext created.
+2019-04-09 17:47:42.365[ERROR] SpanContext created error when server received and root SpanContext created.
+2019-04-09 17:48:33.010[ERROR] SpanContext created error when server received and root SpanContext created.
+2019-04-09 17:48:33.011[ERROR] []Middleware server received and restart root span
+java.lang.ClassCastException: com.alipay.common.tracer.core.span.SofaTracerSpan cannot be cast to com.alipay.common.tracer.context.AbstractLogContext
+	at com.alipay.common.tracer.compatible.AbstractAlipayTracer.serverReceive(AbstractAlipayTracer.java:168)
+	at com.alipay.common.tracer.tracer.SofaRestTracer.requestReceive(SofaRestTracer.java:151)
+	at com.alipay.sofa.rest.common.tracer.server.TraceRequestFilter.filter(TraceRequestFilter.java:41)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:264)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:250)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:237)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:377)
+	at com.alipay.sofa.rpc.server.rest.SofaSynchronousDispatcher.invoke(SofaSynchronousDispatcher.java:49)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:200)
+	at org.jboss.resteasy.plugins.server.netty.RequestDispatcher.service(RequestDispatcher.java:83)
+	at com.alipay.sofa.rpc.server.rest.SofaRestRequestHandler.channelRead0(SofaRestRequestHandler.java:100)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.access$600(AbstractChannelHandlerContext.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext$7.run(AbstractChannelHandlerContext.java:353)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:465)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-09 17:48:44.662[ERROR] SpanContext created error when server received and root SpanContext created.
+2019-04-09 17:48:44.663[ERROR] []Middleware server received and restart root span
+java.lang.ClassCastException: com.alipay.common.tracer.core.span.SofaTracerSpan cannot be cast to com.alipay.common.tracer.context.AbstractLogContext
+	at com.alipay.common.tracer.compatible.AbstractAlipayTracer.serverReceive(AbstractAlipayTracer.java:168)
+	at com.alipay.common.tracer.tracer.SofaRestTracer.requestReceive(SofaRestTracer.java:151)
+	at com.alipay.sofa.rest.common.tracer.server.TraceRequestFilter.filter(TraceRequestFilter.java:41)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:264)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:250)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:237)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:377)
+	at com.alipay.sofa.rpc.server.rest.SofaSynchronousDispatcher.invoke(SofaSynchronousDispatcher.java:49)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:200)
+	at org.jboss.resteasy.plugins.server.netty.RequestDispatcher.service(RequestDispatcher.java:83)
+	at com.alipay.sofa.rpc.server.rest.SofaRestRequestHandler.channelRead0(SofaRestRequestHandler.java:100)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.access$600(AbstractChannelHandlerContext.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext$7.run(AbstractChannelHandlerContext.java:353)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:465)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-09 17:48:52.129[ERROR] SpanContext created error when server received and root SpanContext created.
+2019-04-09 17:48:52.129[ERROR] []Middleware server received and restart root span
+java.lang.ClassCastException: com.alipay.common.tracer.core.span.SofaTracerSpan cannot be cast to com.alipay.common.tracer.context.AbstractLogContext
+	at com.alipay.common.tracer.compatible.AbstractAlipayTracer.serverReceive(AbstractAlipayTracer.java:168)
+	at com.alipay.common.tracer.tracer.SofaRestTracer.requestReceive(SofaRestTracer.java:151)
+	at com.alipay.sofa.rest.common.tracer.server.TraceRequestFilter.filter(TraceRequestFilter.java:41)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:264)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:250)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:237)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:377)
+	at com.alipay.sofa.rpc.server.rest.SofaSynchronousDispatcher.invoke(SofaSynchronousDispatcher.java:49)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:200)
+	at org.jboss.resteasy.plugins.server.netty.RequestDispatcher.service(RequestDispatcher.java:83)
+	at com.alipay.sofa.rpc.server.rest.SofaRestRequestHandler.channelRead0(SofaRestRequestHandler.java:100)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.access$600(AbstractChannelHandlerContext.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext$7.run(AbstractChannelHandlerContext.java:353)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:465)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-09 17:49:12.851[ERROR] SpanContext created error when server received and root SpanContext created.
+2019-04-09 17:49:12.851[ERROR] []Middleware server received and restart root span
+java.lang.ClassCastException: com.alipay.common.tracer.core.span.SofaTracerSpan cannot be cast to com.alipay.common.tracer.context.AbstractLogContext
+	at com.alipay.common.tracer.compatible.AbstractAlipayTracer.serverReceive(AbstractAlipayTracer.java:168)
+	at com.alipay.common.tracer.tracer.SofaRestTracer.requestReceive(SofaRestTracer.java:151)
+	at com.alipay.sofa.rest.common.tracer.server.TraceRequestFilter.filter(TraceRequestFilter.java:41)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:264)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:250)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:237)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:377)
+	at com.alipay.sofa.rpc.server.rest.SofaSynchronousDispatcher.invoke(SofaSynchronousDispatcher.java:49)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:200)
+	at org.jboss.resteasy.plugins.server.netty.RequestDispatcher.service(RequestDispatcher.java:83)
+	at com.alipay.sofa.rpc.server.rest.SofaRestRequestHandler.channelRead0(SofaRestRequestHandler.java:100)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.access$600(AbstractChannelHandlerContext.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext$7.run(AbstractChannelHandlerContext.java:353)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:465)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-09 17:49:27.139[ERROR] SpanContext created error when server received and root SpanContext created.
+2019-04-09 17:49:27.139[ERROR] []Middleware server received and restart root span
+java.lang.ClassCastException: com.alipay.common.tracer.core.span.SofaTracerSpan cannot be cast to com.alipay.common.tracer.context.AbstractLogContext
+	at com.alipay.common.tracer.compatible.AbstractAlipayTracer.serverReceive(AbstractAlipayTracer.java:168)
+	at com.alipay.common.tracer.tracer.SofaRestTracer.requestReceive(SofaRestTracer.java:151)
+	at com.alipay.sofa.rest.common.tracer.server.TraceRequestFilter.filter(TraceRequestFilter.java:41)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:264)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:250)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:237)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:377)
+	at com.alipay.sofa.rpc.server.rest.SofaSynchronousDispatcher.invoke(SofaSynchronousDispatcher.java:49)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:200)
+	at org.jboss.resteasy.plugins.server.netty.RequestDispatcher.service(RequestDispatcher.java:83)
+	at com.alipay.sofa.rpc.server.rest.SofaRestRequestHandler.channelRead0(SofaRestRequestHandler.java:100)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.access$600(AbstractChannelHandlerContext.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext$7.run(AbstractChannelHandlerContext.java:353)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:465)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+

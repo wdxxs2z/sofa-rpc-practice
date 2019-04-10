@@ -1,0 +1,1 @@
+{"time":"2019-04-09 15:32:38.968","local.app":"bank-sofa-providers","traceId":"1e270ed91554795158926100366116","spanId":"0.1","request.url":"http://127.0.0.1:8080/webapi/message","method":"GET","result.code":"404","req.size.bytes":-1,"resp.size.bytes":0,"time.cost.milliseconds":42,"current.thread.name":"http-nio-8080-exec-1","baggage":""}

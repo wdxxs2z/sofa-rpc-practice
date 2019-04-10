@@ -1,0 +1,66 @@
+2019-04-10 12:33:16.983,,a9fea9b81554870791787100178914,0,SOFA-SEV-BOLT-BIZ-12201-3-T1,unknown_error,rpc,invokeType=&protocol=&callerIdc=&paramTypes=java.lang.String&callerZone=&methodName=&serviceName=&callerUrl=&callerApp=&,,com.alipay.sofa.rpc.core.exception.SofaRpcException: RPC-02412: 未找到需要调用的方法：[message]；服务名为：[cloud.provider.facade.CallerService:1.0] 
+	at com.alipay.sofa.rpc.server.bolt.BoltServerProcessor.cannotFoundServiceMethod(BoltServerProcessor.java:266)
+	at com.alipay.sofa.rpc.server.bolt.BoltServerProcessor.handleRequest(BoltServerProcessor.java:163)
+	at com.alipay.sofa.rpc.server.bolt.BoltServerProcessor.handleRequest(BoltServerProcessor.java:61)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.dispatchToUserProcessor(RpcRequestProcessor.java:218)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.doProcess(RpcRequestProcessor.java:145)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor$ProcessTask.run(RpcRequestProcessor.java:371)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-10 12:44:23.131,,a9fea9b81554871458036100179152,0,SOFA-SEV-BOLT-BIZ-12201-3-T2,unknown_error,rpc,invokeType=&protocol=&callerIdc=&paramTypes=java.lang.String&callerZone=&methodName=&serviceName=&callerUrl=&callerApp=&,,com.alipay.sofa.rpc.core.exception.SofaRpcException: RPC-02412: 未找到需要调用的方法：[message]；服务名为：[cloud.provider.facade.CallerService:1.0] 
+	at com.alipay.sofa.rpc.server.bolt.BoltServerProcessor.cannotFoundServiceMethod(BoltServerProcessor.java:266)
+	at com.alipay.sofa.rpc.server.bolt.BoltServerProcessor.handleRequest(BoltServerProcessor.java:163)
+	at com.alipay.sofa.rpc.server.bolt.BoltServerProcessor.handleRequest(BoltServerProcessor.java:61)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.dispatchToUserProcessor(RpcRequestProcessor.java:218)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.doProcess(RpcRequestProcessor.java:145)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor$ProcessTask.run(RpcRequestProcessor.java:371)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-10 12:47:42.049,,a9fea9b81554871656950100179187,0,SOFA-SEV-BOLT-BIZ-12201-3-T3,unknown_error,rpc,invokeType=&protocol=&callerIdc=&paramTypes=java.lang.String&callerZone=&methodName=&serviceName=&callerUrl=&callerApp=&,,com.alipay.sofa.rpc.core.exception.SofaRpcException: RPC-02412: 未找到需要调用的方法：[message]；服务名为：[cloud.provider.facade.CallerService:1.0] 
+	at com.alipay.sofa.rpc.server.bolt.BoltServerProcessor.cannotFoundServiceMethod(BoltServerProcessor.java:266)
+	at com.alipay.sofa.rpc.server.bolt.BoltServerProcessor.handleRequest(BoltServerProcessor.java:163)
+	at com.alipay.sofa.rpc.server.bolt.BoltServerProcessor.handleRequest(BoltServerProcessor.java:61)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.dispatchToUserProcessor(RpcRequestProcessor.java:218)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.doProcess(RpcRequestProcessor.java:145)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor$ProcessTask.run(RpcRequestProcessor.java:371)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-10 12:50:38.364,,1e27a0531554871833273100179243,0,SOFA-SEV-BOLT-BIZ-12201-3-T4,unknown_error,rpc,invokeType=&protocol=&callerIdc=&paramTypes=java.lang.String&callerZone=&methodName=&serviceName=&callerUrl=&callerApp=&,,com.alipay.sofa.rpc.core.exception.SofaRpcException: RPC-02412: 未找到需要调用的方法：[message]；服务名为：[cloud.provider.facade.CallerService:1.0] 
+	at com.alipay.sofa.rpc.server.bolt.BoltServerProcessor.cannotFoundServiceMethod(BoltServerProcessor.java:266)
+	at com.alipay.sofa.rpc.server.bolt.BoltServerProcessor.handleRequest(BoltServerProcessor.java:163)
+	at com.alipay.sofa.rpc.server.bolt.BoltServerProcessor.handleRequest(BoltServerProcessor.java:61)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.dispatchToUserProcessor(RpcRequestProcessor.java:218)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.doProcess(RpcRequestProcessor.java:145)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor$ProcessTask.run(RpcRequestProcessor.java:371)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-10 13:11:43.351,,1e27a0531554873098309100379243,0,SOFA-SEV-BOLT-BIZ-12201-3-T5,unknown_error,rpc,invokeType=&protocol=&callerIdc=&paramTypes=java.lang.String&callerZone=&methodName=&serviceName=&callerUrl=&callerApp=&,,com.alipay.sofa.rpc.core.exception.SofaRpcException: RPC-02412: 未找到需要调用的方法：[message]；服务名为：[cloud.provider.facade.CallerService:1.0] 
+	at com.alipay.sofa.rpc.server.bolt.BoltServerProcessor.cannotFoundServiceMethod(BoltServerProcessor.java:266)
+	at com.alipay.sofa.rpc.server.bolt.BoltServerProcessor.handleRequest(BoltServerProcessor.java:163)
+	at com.alipay.sofa.rpc.server.bolt.BoltServerProcessor.handleRequest(BoltServerProcessor.java:61)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.dispatchToUserProcessor(RpcRequestProcessor.java:218)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.doProcess(RpcRequestProcessor.java:145)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor$ProcessTask.run(RpcRequestProcessor.java:371)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-10 13:22:43.252,,1e27a0531554873758159100179651,0,SOFA-SEV-BOLT-BIZ-12201-3-T7,unknown_error,rpc,invokeType=&protocol=&callerIdc=&paramTypes=java.lang.String&callerZone=&methodName=&serviceName=&callerUrl=&callerApp=&,,com.alipay.sofa.rpc.core.exception.SofaRpcException: RPC-02412: 未找到需要调用的方法：[message]；服务名为：[cloud.provider.facade.CallerService:1.0] 
+	at com.alipay.sofa.rpc.server.bolt.BoltServerProcessor.cannotFoundServiceMethod(BoltServerProcessor.java:266)
+	at com.alipay.sofa.rpc.server.bolt.BoltServerProcessor.handleRequest(BoltServerProcessor.java:163)
+	at com.alipay.sofa.rpc.server.bolt.BoltServerProcessor.handleRequest(BoltServerProcessor.java:61)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.dispatchToUserProcessor(RpcRequestProcessor.java:218)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.doProcess(RpcRequestProcessor.java:145)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor$ProcessTask.run(RpcRequestProcessor.java:371)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
