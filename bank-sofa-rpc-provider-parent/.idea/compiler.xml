@@ -20,9 +20,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="bank-sofa-provider-facade" options="-parameters" />
+      <module name="bank-sofa-provider-facade" options="" />
       <module name="bank-sofa-provider-gateway" options="-parameters" />
-      <module name="bank-sofa-provider-service" options="-parameters" />
+      <module name="bank-sofa-provider-service" options="" />
     </option>
   </component>
 </project>

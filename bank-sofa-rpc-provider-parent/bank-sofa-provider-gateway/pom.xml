@@ -22,14 +22,7 @@
         <dependency>
             <groupId>com.alipay.sofa</groupId>
             <artifactId>sofa-rpc-enterprise-all</artifactId>
-            <version>5.5.1</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alipay</groupId>
-            <artifactId>generic-serialization</artifactId>
-            <version>1.0.7</version>
-            <scope>provided</scope>
+            <version>5.4.4</version>
         </dependency>
     </dependencies>
 

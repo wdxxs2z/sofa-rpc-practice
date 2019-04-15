@@ -25,17 +25,17 @@ com:
   alipay:
     env: shared
     instanceid: xxxx
-    sofa:
-      rpc:
-        registry:
-          address: xxx
   antcloud:
     antvip:
       endpoint: xxx
     mw:
       access: xxx
       secret: xxx
+  sofa:
+    registry:
+      address: local:///Users/yuanshaopeng/localFileRegistry/localRegistry.reg
 run:
   mode: DEV
+
 
 # SOFA CONFIG END

@@ -1,18 +1,20 @@
 package cloud.provider;
 
 import cloud.provider.facade.CallerService;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ImportResource;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.sql.DataSource;
 import java.util.Map;
 
 @ImportResource({"classpath*:META-INF/xingye-sofa-rpc-provider/*.xml"})
 @org.springframework.boot.autoconfigure.SpringBootApplication
+@RestController
 public class SOFABootSpringApplication {
 
     public static void main(String[] args){
@@ -27,5 +29,13 @@ public class SOFABootSpringApplication {
         for (Map.Entry<String, CallerService> service : services.entrySet()) {
             System.out.println("bean name: " + service.getKey() + " ,bean class: " + service.getValue());
         }
+    }
+
+    @Autowired
+    CallerService callerService;
+
+    @RequestMapping(value = "/test", method = RequestMethod.GET)
+    public String getMessage() {
+        return callerService.message();
     }
 }

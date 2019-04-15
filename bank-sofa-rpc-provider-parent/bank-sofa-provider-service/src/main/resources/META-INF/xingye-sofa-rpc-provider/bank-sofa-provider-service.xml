@@ -7,7 +7,7 @@
         http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
         http://schema.alipay.com/sofa/schema/slite http://schema.alipay.com/sofa/slite.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <!-- SOFA data source tracer START parent="originDataSource"-->
+    <!-- SOFA data source tracer START parent="originDataSource"
     <bean id="clientTracer" class="com.alipay.sofa.extds.tracer.DefaultClientTracer"/>
 
     <bean id="smartDataSource" class="com.alipay.sofa.extds.SmartDataSource" init-method="init" primary="true">
@@ -18,13 +18,13 @@
         <property name="clientTracer" ref="clientTracer"/>
     </bean>
 
-    <!-- destroy-method="close" init-method="init" -->
     <bean id="originDataSource" class="com.alibaba.druid.pool.DruidDataSource" destroy-method="close" init-method="init">
         <property name="driverClassName" value="${spring.self.datasource.driver-class-name}" />
         <property name="url" value="${spring.self.datasource.url}" />
         <property name="username" value="${spring.self.datasource.username}" />
         <property name="password" value="${spring.self.datasource.password}" />
     </bean>
+    -->
 
     <!-- SOFA data source tracer END-->
 

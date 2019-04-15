@@ -1,5 +1,0 @@
-2019-04-09 09:33:37,947 WARN  [RpcServer#305] [Thread-5] Rpc Server stopped!
-2019-04-09 13:39:17,257 WARN  [RpcServer#884] [main] [server side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
-2019-04-09 13:52:54,404 WARN  [RpcServer#305] [Thread-8] Rpc Server stopped!
-2019-04-09 15:00:43,152 WARN  [RpcServer#884] [main] [server side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
-2019-04-09 21:30:40,048 WARN  [RpcServer#305] [Thread-8] Rpc Server stopped!

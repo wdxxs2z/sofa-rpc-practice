@@ -5,8 +5,11 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.TypeReference;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -14,13 +17,18 @@ import java.util.Map;
 
 @SpringBootApplication
 @RestController
+@ComponentScan(basePackages = "cloud.provider.gateway.*")
 public class GatewayApplication {
 
     private static final Logger logger = LoggerFactory.getLogger(GatewayApplication.class);
 
+    @Autowired
+    private SofaProtocolAdapt sofaProtocolAdapt;
+
     public static void main(String[] args) {
 
-        SpringApplication.run(GatewayApplication.class, args);
+        ConfigurableApplicationContext run =
+                SpringApplication.run(GatewayApplication.class, args);
 
     }
 
@@ -45,9 +53,7 @@ public class GatewayApplication {
 
         List<Map<String, Object>> args = (List<Map<String, Object>>)requestObject.get("content");
 
-        SofaProtocolAdapt adapt = new SofaProtocolAdapt();
-
-        Object response = adapt.doGenericInvoke(interfaceName, method, args);
+        Object response = sofaProtocolAdapt.doGenericInvoke(interfaceName, method, args);
 
         return response;
     }

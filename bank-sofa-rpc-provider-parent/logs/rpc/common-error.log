@@ -1,6 +1,0 @@
-2019-04-10 12:33:16,970 ERROR SOFA-SEV-BOLT-BIZ-12201-3-T1     - RPC-02412: 未找到需要调用的方法：[message]；服务名为：[cloud.provider.facade.CallerService:1.0] 
-2019-04-10 12:44:23,129 ERROR SOFA-SEV-BOLT-BIZ-12201-3-T2     - RPC-02412: 未找到需要调用的方法：[message]；服务名为：[cloud.provider.facade.CallerService:1.0] 
-2019-04-10 12:47:42,049 ERROR SOFA-SEV-BOLT-BIZ-12201-3-T3     - RPC-02412: 未找到需要调用的方法：[message]；服务名为：[cloud.provider.facade.CallerService:1.0] 
-2019-04-10 12:50:38,363 ERROR SOFA-SEV-BOLT-BIZ-12201-3-T4     - RPC-02412: 未找到需要调用的方法：[message]；服务名为：[cloud.provider.facade.CallerService:1.0] 
-2019-04-10 13:11:43,349 ERROR SOFA-SEV-BOLT-BIZ-12201-3-T5     - RPC-02412: 未找到需要调用的方法：[message]；服务名为：[cloud.provider.facade.CallerService:1.0] 
-2019-04-10 13:22:43,252 ERROR SOFA-SEV-BOLT-BIZ-12201-3-T7     - RPC-02412: 未找到需要调用的方法：[message]；服务名为：[cloud.provider.facade.CallerService:1.0] 

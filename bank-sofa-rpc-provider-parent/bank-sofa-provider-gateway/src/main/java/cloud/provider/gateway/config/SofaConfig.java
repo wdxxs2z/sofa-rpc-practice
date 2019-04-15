@@ -2,6 +2,7 @@ package cloud.provider.gateway.config;
 
 import com.alipay.sofa.rpc.common.utils.StringUtils;
 import com.alipay.sofa.rpc.config.ApplicationConfig;
+import com.alipay.sofa.rpc.config.RegistryConfig;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -30,7 +31,7 @@ public class SofaConfig {
     @Value("${run.mode}")
     private String runMode;
 
-    @Value("${com.alipay.sofa.rpc.registry.address:local}")
+    @Value("${com.sofa.registry.address}")
     private String registryAddress;
 
     @Bean
@@ -57,5 +58,25 @@ public class SofaConfig {
         ApplicationConfig appConfiguration = new ApplicationConfig();
         appConfiguration.setAppName(appName);
         return appConfiguration;
+    }
+
+    @Bean
+    public RegistryConfig registryConfig() {
+
+        int startIndex = registryAddress.indexOf("://");
+        String protocol = registryAddress.substring(0, startIndex);
+        String address = registryAddress.substring(startIndex + 3);
+
+        RegistryConfig registryConfig = new RegistryConfig();
+        registryConfig.setProtocol(protocol);
+        if (protocol.equals("local")) {
+            registryConfig.setFile(address);
+        }else {
+            registryConfig.setAddress(address);
+        }
+        //registryConfig.setSubscribe(true);
+        registryConfig.setConnectTimeout(3000);
+
+        return registryConfig;
     }
 }

@@ -13,8 +13,8 @@ import org.springframework.context.annotation.Primary;
 import javax.sql.DataSource;
 import java.sql.SQLException;
 
-//@Configuration
-//@ConfigurationProperties(prefix = "spring.datasource")
+@Configuration
+@ConfigurationProperties(prefix = "spring.self.datasource")
 public class DatasourceConfig {
 
     private String appName;
@@ -27,37 +27,37 @@ public class DatasourceConfig {
     private Integer initialSize;
     private Integer maxActive;
 
-//    @Bean
-//    @Qualifier("smartDataSource")
-//    @Primary
-//    public DataSource smartDataSource() throws SQLException{
-//        SmartDataSource smartDataSource = new SmartDataSource();
-//        smartDataSource.setAppName(appName);
-//        smartDataSource.setDatabase(database);
-//        smartDataSource.setDbType(dbType);
-//        smartDataSource.setClientTracer(clientTracer());
-//        smartDataSource.setDelegate(simpleDataSource());
-//        smartDataSource.init();
-//        return smartDataSource;
-//    }
-//
-//    @Bean
-//    public DataSource simpleDataSource() throws SQLException {
-//        DruidDataSource datasource = new DruidDataSource();
-//        datasource.setUrl(url);
-//        datasource.setUsername(username);
-//        datasource.setPassword(password);
-//        datasource.setDriverClassName(driverClassName);
-//        datasource.setInitialSize(initialSize);
-//        datasource.init();
-//        return datasource;
-//    }
-//
-//    @Bean
-//    @Primary
-//    public ClientTracer clientTracer(){
-//        return new DefaultClientTracer();
-//    }
+    @Bean
+    @Qualifier("smartDataSource")
+    @Primary
+    public DataSource smartDataSource() throws SQLException{
+        SmartDataSource smartDataSource = new SmartDataSource();
+        smartDataSource.setAppName(appName);
+        smartDataSource.setDatabase(database);
+        smartDataSource.setDbType(dbType);
+        smartDataSource.setClientTracer(clientTracer());
+        smartDataSource.setDelegate(simpleDataSource());
+        smartDataSource.init();
+        return smartDataSource;
+    }
+
+    @Bean
+    public DataSource simpleDataSource() throws SQLException {
+        DruidDataSource datasource = new DruidDataSource();
+        datasource.setUrl(url);
+        datasource.setUsername(username);
+        datasource.setPassword(password);
+        datasource.setDriverClassName(driverClassName);
+        datasource.setInitialSize(initialSize);
+        datasource.init();
+        return datasource;
+    }
+
+    @Bean
+    @Primary
+    public ClientTracer clientTracer(){
+        return new DefaultClientTracer();
+    }
 
     public String getAppName() {
         return appName;

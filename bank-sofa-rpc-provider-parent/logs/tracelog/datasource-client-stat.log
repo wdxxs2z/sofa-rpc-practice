@@ -1,0 +1,2 @@
+{"time":"2019-04-15 15:45:18.104","stat.key":{"local.app":"bank-sofa-providers","database.name":"sofa-db","sql":"create table test(ID INT PRIMARY KEY%2C NAME VARCHAR(255))"},"count":2,"total.cost.milliseconds":38,"success":"true","load.test":"F"}
+{"time":"2019-04-15 15:45:18.105","stat.key":{"local.app":"bank-sofa-providers","database.name":"sofa-db","sql":"DROP TABLE IF EXISTS test"},"count":2,"total.cost.milliseconds":62,"success":"true","load.test":"F"}

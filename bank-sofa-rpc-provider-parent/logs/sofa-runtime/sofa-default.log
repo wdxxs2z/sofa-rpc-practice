@@ -1,11 +1,45 @@
-2019-04-10 11:39:31,653 INFO  main                             - SOFABoot Runtime Starting!
-2019-04-10 11:39:50,810 INFO  main                             - Registering component: service:cloud.provider.facade.CallerService
-2019-04-10 11:39:50,811 INFO  main                             -  <<PreOut Binding [tr] Begins - cloud.provider.facade.CallerService.
-2019-04-10 11:39:55,926 INFO  main                             -  <<PreOut Binding [tr] Ends - cloud.provider.facade.CallerService.
-2019-04-10 11:39:55,926 INFO  main                             -  <<PreOut Binding [rest] Begins - cloud.provider.facade.CallerService.
-2019-04-10 11:39:55,933 INFO  main                             -  <<PreOut Binding [rest] Ends - cloud.provider.facade.CallerService.
-2019-04-10 11:39:55,933 INFO  main                             -  <<Out Binding [tr] Begins - cloud.provider.facade.CallerService.
-2019-04-10 11:39:55,973 INFO  main                             -  <<Out Binding [tr] Ends - cloud.provider.facade.CallerService.
-2019-04-10 11:39:55,974 INFO  main                             -  <<Out Binding [rest] Begins - cloud.provider.facade.CallerService.
-2019-04-10 11:40:01,241 INFO  main                             -  <<Out Binding [rest] Ends - cloud.provider.facade.CallerService.
-2019-04-10 11:40:01,241 INFO  main                             - Register Service - cloud.provider.facade.CallerService
+2019-04-15 15:44:09,584 INFO  main                             - SOFABoot Runtime Starting!
+2019-04-15 15:44:23,470 INFO  main                             - Registering component: service:cloud.provider.facade.CallerService
+2019-04-15 15:44:23,472 INFO  main                             -  <<PreOut Binding [tr] Begins - cloud.provider.facade.CallerService.
+2019-04-15 15:44:28,594 INFO  main                             -  <<PreOut Binding [tr] Ends - cloud.provider.facade.CallerService.
+2019-04-15 15:44:28,594 INFO  main                             -  <<PreOut Binding [rest] Begins - cloud.provider.facade.CallerService.
+2019-04-15 15:44:28,601 INFO  main                             -  <<PreOut Binding [rest] Ends - cloud.provider.facade.CallerService.
+2019-04-15 15:44:28,601 INFO  main                             -  <<Out Binding [tr] Begins - cloud.provider.facade.CallerService.
+2019-04-15 15:44:28,664 INFO  main                             -  <<Out Binding [tr] Ends - cloud.provider.facade.CallerService.
+2019-04-15 15:44:28,664 INFO  main                             -  <<Out Binding [rest] Begins - cloud.provider.facade.CallerService.
+2019-04-15 15:44:33,882 INFO  main                             -  <<Out Binding [rest] Ends - cloud.provider.facade.CallerService.
+2019-04-15 15:44:33,882 INFO  main                             - Register Service - cloud.provider.facade.CallerService
+2019-04-15 16:38:27,999 INFO  main                             - SOFABoot Runtime Starting!
+2019-04-15 16:38:31,543 INFO  main                             - Registering component: service:cloud.provider.facade.CallerService
+2019-04-15 16:38:31,545 INFO  main                             -  <<PreOut Binding [tr] Begins - cloud.provider.facade.CallerService.
+2019-04-15 16:38:31,655 INFO  main                             -  <<PreOut Binding [tr] Ends - cloud.provider.facade.CallerService.
+2019-04-15 16:38:31,655 INFO  main                             -  <<PreOut Binding [rest] Begins - cloud.provider.facade.CallerService.
+2019-04-15 16:38:31,661 INFO  main                             -  <<PreOut Binding [rest] Ends - cloud.provider.facade.CallerService.
+2019-04-15 16:38:31,662 INFO  main                             -  <<Out Binding [tr] Begins - cloud.provider.facade.CallerService.
+2019-04-15 16:38:31,704 INFO  main                             -  <<Out Binding [tr] Ends - cloud.provider.facade.CallerService.
+2019-04-15 16:38:31,705 INFO  main                             -  <<Out Binding [rest] Begins - cloud.provider.facade.CallerService.
+2019-04-15 16:38:31,872 INFO  main                             -  <<Out Binding [rest] Ends - cloud.provider.facade.CallerService.
+2019-04-15 16:38:31,872 INFO  main                             - Register Service - cloud.provider.facade.CallerService
+2019-04-15 16:45:14,456 INFO  main                             - SOFABoot Runtime Starting!
+2019-04-15 16:45:17,893 INFO  main                             - Registering component: service:cloud.provider.facade.CallerService
+2019-04-15 16:45:17,893 INFO  main                             -  <<PreOut Binding [rest] Begins - cloud.provider.facade.CallerService.
+2019-04-15 16:45:17,955 INFO  main                             -  <<PreOut Binding [rest] Ends - cloud.provider.facade.CallerService.
+2019-04-15 16:45:17,955 INFO  main                             -  <<PreOut Binding [tr] Begins - cloud.provider.facade.CallerService.
+2019-04-15 16:45:17,958 INFO  main                             -  <<PreOut Binding [tr] Ends - cloud.provider.facade.CallerService.
+2019-04-15 16:45:17,958 INFO  main                             -  <<Out Binding [rest] Begins - cloud.provider.facade.CallerService.
+2019-04-15 16:45:18,135 INFO  main                             -  <<Out Binding [rest] Ends - cloud.provider.facade.CallerService.
+2019-04-15 16:45:18,135 INFO  main                             -  <<Out Binding [tr] Begins - cloud.provider.facade.CallerService.
+2019-04-15 16:45:18,146 INFO  main                             -  <<Out Binding [tr] Ends - cloud.provider.facade.CallerService.
+2019-04-15 16:45:18,146 INFO  main                             - Register Service - cloud.provider.facade.CallerService
+2019-04-15 16:59:28,703 INFO  main                             - SOFABoot Runtime Starting!
+2019-04-15 17:01:03,617 INFO  main                             - SOFABoot Runtime Starting!
+2019-04-15 17:01:07,419 INFO  main                             - Registering component: service:cloud.provider.facade.CallerService
+2019-04-15 17:01:07,419 INFO  main                             -  <<PreOut Binding [rest] Begins - cloud.provider.facade.CallerService.
+2019-04-15 17:01:07,490 INFO  main                             -  <<PreOut Binding [rest] Ends - cloud.provider.facade.CallerService.
+2019-04-15 17:01:07,491 INFO  main                             -  <<PreOut Binding [tr] Begins - cloud.provider.facade.CallerService.
+2019-04-15 17:01:07,494 INFO  main                             -  <<PreOut Binding [tr] Ends - cloud.provider.facade.CallerService.
+2019-04-15 17:01:07,494 INFO  main                             -  <<Out Binding [rest] Begins - cloud.provider.facade.CallerService.
+2019-04-15 17:01:07,710 INFO  main                             -  <<Out Binding [rest] Ends - cloud.provider.facade.CallerService.
+2019-04-15 17:01:07,710 INFO  main                             -  <<Out Binding [tr] Begins - cloud.provider.facade.CallerService.
+2019-04-15 17:01:07,724 INFO  main                             -  <<Out Binding [tr] Ends - cloud.provider.facade.CallerService.
+2019-04-15 17:01:07,724 INFO  main                             - Register Service - cloud.provider.facade.CallerService

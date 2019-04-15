@@ -1,1 +1,3 @@
-2019-04-10 13:27:16,667 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.transport.ClientTransportFactory - Shutdown all client transport now!
+2019-04-15 16:28:44,377 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.transport.ClientTransportFactory - Shutdown all client transport now!
+2019-04-15 16:45:07,567 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.transport.ClientTransportFactory - Shutdown all client transport now!
+2019-04-15 16:59:23,365 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.transport.ClientTransportFactory - Shutdown all client transport now!

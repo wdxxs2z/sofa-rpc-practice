@@ -6,16 +6,19 @@ import com.alipay.sofa.rpc.config.ApplicationConfig;
 import com.alipay.sofa.rpc.config.ConsumerConfig;
 import com.alipay.sofa.rpc.config.RegistryConfig;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
+@Component
 public class SofaProtocolAdapt {
 
     @Autowired
     private ApplicationConfig applicationConfig;
+
+    @Autowired
+    private RegistryConfig registryConfig;
 
     private static Map<String, GenericService> cache = new HashMap<>();
 
@@ -24,26 +27,23 @@ public class SofaProtocolAdapt {
      * */
     public Object doGenericInvoke(String interfaceClass, String methodName, List<Map<String, Object>> params){
 
+        if (applicationConfig == null || registryConfig == null) {
+            return "";
+        }
+
         GenericService genericService;
 
         if (cache.get(interfaceClass) != null) {
             genericService = cache.get(interfaceClass);
         }else {
-            RegistryConfig registryConfig = new RegistryConfig();
-            registryConfig.setProtocol("local");
-            registryConfig.setFile("/Users/yuanshaopeng/localFileRegistry/localRegistry.reg");
-            registryConfig.setSubscribe(true);
-            registryConfig.setConnectTimeout(3000);
 
             ConsumerConfig<GenericService> consumerConfig = new ConsumerConfig<GenericService>()
                     .setInterfaceId(interfaceClass)
-                    .setProtocol("bolt")
                     .setApplication(applicationConfig)
-                    .setCheck(false)
                     .setGeneric(true)
-                    .setRegistry(registryConfig)
-                    .setConnectTimeout(5000)
-                    .setTimeout(5000);
+                    .setTimeout(10000)
+                    .setDirectUrl("bolt://127.0.0.1:12200?appName=generic-server");
+                    //.setRegistry(registryConfig);
 
             genericService = consumerConfig.refer();
             cache.put(interfaceClass, genericService);
@@ -69,8 +69,18 @@ public class SofaProtocolAdapt {
             }
         }
 
-        String[] array =new String[types.size()];
-        Object response = genericService.$genericInvoke(methodName, types.toArray(array), args.toArray());
+        String[] genericTypes =new String[types.size()];
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSZ");
+        Date start = new Date();
+        System.out.println(simpleDateFormat.format(start));
+
+        Object response = genericService.$genericInvoke(methodName,
+                types.toArray(genericTypes),
+                args.toArray());
+
+
+        Date end = new Date();
+        System.out.println(simpleDateFormat.format(end));
         return response;
     }
 }

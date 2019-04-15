@@ -30,15 +30,27 @@
 			<groupId>com.alipay.sofa</groupId>
 			<artifactId>rpc-enterprise-sofa-boot-starter</artifactId>
 		</dependency>
+
+		<!--
 		<dependency>
 			<groupId>com.alipay.sofa</groupId>
 			<artifactId>tracer-sofa-boot-starter</artifactId>
+		</dependency>
+		-->
+
+		<dependency>
+			<groupId>com.alipay.sofa</groupId>
+			<artifactId>tracer-enterprise-sofa-boot-starter</artifactId>
 		</dependency>
 
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -98,6 +110,7 @@
 			<artifactId>extds-tracer</artifactId>
 			<version>1.0.8</version>
 		</dependency>
+
 
 		<!-- lookout metric
         <dependency>

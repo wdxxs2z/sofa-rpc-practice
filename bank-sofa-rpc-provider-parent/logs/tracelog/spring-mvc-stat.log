@@ -1,1 +1,0 @@
-{"time":"2019-04-09 15:33:31.615","stat.key":{"method":"GET","local.app":"bank-sofa-providers","request.url":"http://127.0.0.1:8080/webapi/message"},"count":1,"total.cost.milliseconds":42,"success":"false","load.test":"F"}
