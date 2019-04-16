@@ -28,5 +28,9 @@ public interface CallerService {
 	@GET
 	@Path("/tracer")
 	Map<String, Object> getCurrentTracerInfo();
+
+	@GET
+	@Path("/createCity")
+	String mybatisTest();
 }
 

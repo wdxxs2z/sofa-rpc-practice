@@ -31,18 +31,16 @@
 			<artifactId>rpc-enterprise-sofa-boot-starter</artifactId>
 		</dependency>
 
-		<!--
 		<dependency>
-			<groupId>com.alipay.sofa</groupId>
-			<artifactId>tracer-sofa-boot-starter</artifactId>
+			<groupId>org.mybatis.spring.boot</groupId>
+			<artifactId>mybatis-spring-boot-starter</artifactId>
+			<version>2.0.1</version>
 		</dependency>
-		-->
 
 		<dependency>
 			<groupId>com.alipay.sofa</groupId>
 			<artifactId>tracer-enterprise-sofa-boot-starter</artifactId>
 		</dependency>
-
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -98,7 +96,7 @@
             <artifactId>zipkin-reporter</artifactId>
         </dependency>
 
-		<!-- sofa extds -->
+		<!-- sofa extds
 		<dependency>
 			<groupId>com.alipay.sofa</groupId>
 			<artifactId>extds-core</artifactId>
@@ -110,7 +108,7 @@
 			<artifactId>extds-tracer</artifactId>
 			<version>1.0.8</version>
 		</dependency>
-
+		-->
 
 		<!-- lookout metric
         <dependency>

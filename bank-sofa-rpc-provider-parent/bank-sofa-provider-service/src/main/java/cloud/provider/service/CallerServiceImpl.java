@@ -10,6 +10,8 @@ import java.util.concurrent.atomic.AtomicLong;
 
 import javax.sql.DataSource;
 
+import cloud.provider.domain.City;
+import cloud.provider.mapper.CityMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.alipay.common.tracer.core.context.span.SofaTracerSpanContext;
@@ -23,8 +25,12 @@ import org.springframework.context.annotation.Lazy;
 public class CallerServiceImpl implements cloud.provider.facade.CallerService {
 
 	@Autowired
-	@Qualifier(value = "smartDataSource")
-	private DataSource smartDataSource;
+	private CityMapper cityMapper;
+
+	@Autowired
+	@Qualifier("smartDataSource")
+	//@Lazy
+	private DataSource dataSource;
 
 	private static final String TEMPLATE = "Hello, %s!";
 
@@ -48,7 +54,7 @@ public class CallerServiceImpl implements cloud.provider.facade.CallerService {
 	public Map<String, Object> create() {
 		Map<String, Object> resultMap = new HashMap<String, Object>();
 		try {
-			Connection cn = smartDataSource.getConnection();
+			Connection cn = dataSource.getConnection();
 			Statement st = cn.createStatement();
 			st.execute("DROP TABLE IF EXISTS test");
 			st.execute("create table test(ID INT PRIMARY KEY, NAME VARCHAR(255))");
@@ -111,5 +117,15 @@ public class CallerServiceImpl implements cloud.provider.facade.CallerService {
 		bizBaggage.put("bizKey","demoTest");
 		sofaTracerSpanContext.addBizBaggage(bizBaggage);
 		return traceInfo;
+	}
+
+	@Override
+	public String mybatisTest() {
+		City city = new City();
+		city.setName("dfdf");
+		city.setCountry("beijing");
+		city.setState("Beijing");
+		cityMapper.insert(city);
+		return "ok";
 	}
 }
